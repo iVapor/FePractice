@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>HomeWork</title>
+        <style>
+            .class-div-main {
+                width: 590px;
+                height: 340px;
+                position: relative;
+            }
+
+            .class-img-photos {
+                display: none;
+            }
+
+            .class-div-circles {
+                width: 100px;
+                height: 20px;
+                border-radius: 10px;
+                background: rgba(255, 255, 255, 0.2);
+                position: absolute;
+                left: 50%;
+                transform: translateX(-50%);
+                bottom: 15px;
+                text-align: center;
+            }
+
+            .class-span-circle {
+                display: inline-block;
+                width: 10px;
+                height: 10px;
+                background: white;
+                border-radius: 50%;
+            }
+
+            .showPhoto {
+                display: inline;
+            }
+
+            .circleRed {
+                background: red;
+            }
+
+            .class-span-button {
+                position: absolute;
+                width: 20px;
+                height: 60px;
+                background: rgba(0, 0, 0, 0.3);
+                color: white;
+                text-align: center;
+                line-height: 60px;
+                top: 50%;
+                transform: translateY(-50%);
+                display: none;
+            }
+
+            #id-span-leftButton {
+                left: 0px;
+            }
+
+            #id-span-rightButton {
+                right: 0px;
+            }
+
+            .buttonShow {
+                display: inline-block;
+            }
+            .buttonLight {
+                background: rgba(0, 0, 0, 0.6);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="class-div-main" data-index="0" data-all="3">
+            <img class="class-img-photos showPhoto" id="id-img-photo0" src="images/1.jpg" alt="1" data-index="0">
+            <img class="class-img-photos" id="id-img-photo1" src="images/2.jpg" alt="1" data-index="1">
+            <img class="class-img-photos" id="id-img-photo2" src="images/3.jpg" alt="1" data-index="2">
+            <div class="class-div-circles">
+                <span class="class-span-circle circleRed" id="id-span-circle0" data-index="0"></span>
+                <span class="class-span-circle" id="id-span-circle1" data-index="1"></span>
+                <span class="class-span-circle" id="id-span-circle2" data-index="2"></span>
+            </div>
+            <span class="class-span-button" id="id-span-leftButton" data-offset="-1">&lt;</span>
+            <span class="class-span-button" id="id-span-rightButton" data-offset="1">&gt;</span>
+        </div>
+        <script>
+            var removeClassAll = (className) => {
+                var selectors = document.querySelectorAll("." + className)
+                for (var i = 0; i < selectors.length; i++) {
+                    selectors[i].classList.remove(className)
+                }
+            }
+
+            var removeOtherClass = (element, className) => {
+                removeClassAll(className)
+                element.classList.add(className)
+            }
+
+            var bindEvent = (selector, eventName, callback) => {
+                selector.addEventListener(eventName, function(event) {
+                    callback(event)
+                })
+            }
+
+            var bindAll = (selectors, eventName, callback) => {
+                for (var i = 0; i < selectors.length; i++) {
+                    selectors[i].addEventListener(eventName, function(event) {
+                        callback(event)
+                    })
+                }
+            }
+
+            var touchCirlceToSlidePhoto = (circleSelf) => {
+                var index = circleSelf.dataset.index
+                var imgSelector = document.querySelector("#" + "id-img-photo" + index)
+                removeOtherClass(imgSelector, "showPhoto")
+            }
+
+            var bindMainDivMouseOver = () => {
+                var mainDiv = document.querySelector(".class-div-main")
+                bindEvent(mainDiv, "mouseover", function(event) {
+                    var buttons = document.querySelectorAll(".class-span-button")
+                    for (var i = 0; i < buttons.length; i++) {
+                        buttons[i].classList.add("buttonShow")
+                    }
+                    var intervalId = getIntervalEventId()
+                    clearInterval(intervalId)
+                })
+            }
+
+            var bindMainDivMouseOut = () => {
+                var mainDiv = document.querySelector(".class-div-main")
+                bindEvent(mainDiv, "mouseout", function(event) {
+                    removeClassAll("buttonShow")
+                    autoSlide()
+                })
+            }
+
+            var bindCircleMouseOver = () => {
+                var circlesSelector = document.querySelectorAll(".class-span-circle")
+                bindAll(circlesSelector, "mouseover", function(event) {
+                    var self = event.target
+                    removeOtherClass(self, "circleRed")
+                    touchCirlceToSlidePhoto(self)
+                })
+            }
+
+            var bindButtonMouseOver = () => {
+                var buttons = document.querySelectorAll(".class-span-button")
+                bindAll(buttons, "mouseover", function(event) {
+                    var self = event.target
+                    self.classList.add("buttonLight")
+                })
+            }
+
+            var bindButtonMouseOut = () => {
+                var buttons = document.querySelectorAll(".class-span-button")
+                bindAll(buttons, "mouseout", function(event) {
+                    removeClassAll("buttonLight")
+                })
+            }
+
+            var getNextIndex = (offset) => {
+                var mainDivSelector = document.querySelector(".class-div-main")
+                var currentIndex = Number(mainDivSelector.dataset.index)
+                var allIndex = Number(mainDivSelector.dataset.all)
+                var nextIndex = (offset + currentIndex + allIndex) % allIndex
+                mainDivSelector.dataset.index = String(nextIndex)
+                return nextIndex
+            }
+
+            var slidePhotoAndCircle = (nextIndex) => {
+                var imgIdText = "#id-img-photo"
+                var circleIdText = "#id-span-circle"
+                var imgSelector = document.querySelector(imgIdText + String(nextIndex))
+                var circleSelector = document.querySelector(circleIdText + String(nextIndex))
+                removeOtherClass(imgSelector, "showPhoto")
+                removeOtherClass(circleSelector, "circleRed")
+            }
+
+            var bindButtonClick = () => {
+                var buttons = document.querySelectorAll(".class-span-button")
+                bindAll(buttons, "click", function(event) {
+                    var self = event.target
+                    var offset = Number(self.dataset.offset)
+                    var nextIndex = getNextIndex(offset)
+                    slidePhotoAndCircle(nextIndex)
+                })
+            }
+
+            var bindMainDivEvents = () => {
+                bindMainDivMouseOver()
+                bindMainDivMouseOut()
+            }
+
+            var bindButtonEvents = () => {
+                bindButtonMouseOver()
+                bindButtonMouseOut()
+                bindButtonClick()
+            }
+
+            var bindEvents = () => {
+                bindMainDivEvents()
+                bindCircleMouseOver()
+                bindButtonEvents()
+            }
+
+            var setIntervalEventId = (eventId) => {
+                var mainDiv = document.querySelector(".class-div-main")
+                mainDiv.dataset.intervalId = eventId
+            }
+
+            var getIntervalEventId = () => {
+                var mainDiv = document.querySelector(".class-div-main")
+                return mainDiv.dataset.intervalId
+            }
+
+            var autoSlide = () => {
+                var intervalEventId = autoSlideFunction(() => {
+                    var nextIndex = getNextIndex(1)
+                    slidePhotoAndCircle(nextIndex)
+                })
+            }
+
+            var autoSlideFunction = (callback) => {
+                var intervalEventId = setInterval(callback, 2000)
+                setIntervalEventId(intervalEventId)
+            }
+
+            var __main = () => {
+                bindEvents()
+                autoSlide()
+            }
+
+            __main()
+        </script>
+    </body>
+</html>
