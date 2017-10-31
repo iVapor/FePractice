@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>practice</title>
+        <style>
+            .class-li-title {
+                font-weight: bold;
+            }
+            .class-li-value {
+                font-weight: normal;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>计算选择器的特指度</h1>
+        <p>主要针对这种情况：当一个元素被多条 CSS 选择器选中时。哪一条 CSS 选择器所指定的规则会生效，就要取决于它的选择器有多特定，也就是特指度是多少，可以使用下面的 "ICE" 公式计算三个值。</p>
+        <h2>针对这个公式的计分方法</h2>
+        <ol>
+            <li>选择符中有一个 id, 就在 I 的位置加上 1</li>
+            <li>选择符中有一个 class, 就在 C 的位置加上 1</li>
+            <li>选择符中有一个元素 (标签) 名，就在 E 的位置加上 1</li>
+            <li>得到 "I-C-E" 格式的数字</li>
+        </ol>
+        <h2>简单示例</h2>
+        <ul>
+            <li class="class-li-title">p
+                <ul>
+                <li class="class-li-value">0-0-1</li>
+                </ul>
+            </li>
+            <li class="class-li-title">p.largetext
+                <ul>
+                <li class="class-li-value">0-1-1</li>
+                </ul>
+            </li>
+            <li class="class-li-title">p#largetext
+                <ul>
+                <li class="class-li-value">1-0-1</li>
+                </ul>
+            </li>
+            <li class="class-li-title">body p#largetext
+                <ul>
+                <li class="class-li-value">1-0-2</li>
+                </ul>
+            </li>
+            <li class="class-li-title">body p#largetext ul.mylist
+                <ul>
+                <li class="class-li-value">1-1-3</li>
+                </ul>
+            </li>
+            <li class="class-li-title">body p#largetext ul.mylist li
+                <ul>
+                <li class="class-li-value">1-1-4</li>
+                </ul>
+            </li>
+        </ul>
+        <h2>最后</h2>
+        <p>如果特指值相同，则后面的规则会覆盖之前的规则。</p>
+    </body>
+</html>

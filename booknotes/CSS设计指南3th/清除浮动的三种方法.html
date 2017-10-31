@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>practice</title>
+        <style>
+            #id-img-float {
+            }
+
+            .class-div-floatDiv, .class-div-next {
+                border: 1px solid black;
+            }
+            .class-div-next {
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+            .class-img-float {
+                float: left;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>清除浮动的三种方法</h1>
+        <h2>为什么要清除浮动</h2>
+        <div class="class-div-floatDiv">
+            <img id="id-img-float" src="images/duck.png" alt="">
+            <p>左边这个图片是浮动元素，我和这个图片处于同一个 div</p>
+        </div>
+        <div class="class-div-next">
+            <p>我在具有浮动元素的 div 的下面的 div 中，目前图片还没有指定 float 属性，一切正常。下面开始浮动</p>
+        </div>
+        <div class="class-div-floatDiv">
+            <img id="id-img-float" class="class-img-float" src="images/duck.png" alt="">
+            <p>左边这个图片是浮动元素，我和这个图片处于同一个 div</p>
+        </div>
+        <div class="class-div-next">
+            <p>我在具有浮动元素的 div 的下面的 div 中，目前图片指定了 float 属性，一切变得不正常了，我不喜欢这个图片占据我的地盘。</p>
+        </div>
+        <h2>所以我们需要解决上述的问题。</h2>
+        <p>方案一：为具有浮动元素的父元素添加 <strong>overflow: hidden;</strong>，但是这个属性原本的用途是防止内容超出元素，包围浮动元素不是它的主要作用，只是是额外的功能而已。</p>
+        <p>方案二：为父元素也指定 <strong>float: left; </strong>属性，同时将它的宽度指定为 100%，与 body 同宽。所以，下方的 div 要使用 <strong>clear: left;</strong></p>
+        <p>方案三：在元素的末尾添加一个非浮动元素，再指定这个非浮动元素的属性为 <strong>clear: left;</strong>我们可以使用伪类来更好地实现这个效果，这里是 <strong>clear: both; 所以无论浮动元素在哪边，都可以适用。</strong></p>
+        <pre>
+            .clearfix:after {
+                content: ".";
+                display: block;
+                height: 0;
+                visibility: hidden;
+                clear: both;
+            }
+        </pre>
+    </body>
+</html>
