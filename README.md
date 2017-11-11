@@ -1,10 +1,10 @@
 ## 音乐播放器 Demo
 
-![](http://or4ad70xa.bkt.clouddn.com/musicPlayerDemo.gif "播放器demo")
+![](https://github.com/nbhaohao/FePractice/blob/master/musicplayer/musicPlayerDemo.gif "播放器demo")
 
 ## TodoList Demo
 
-![](http://or4ad70xa.bkt.clouddn.com/todoList.gif "TodoListDemo")
+![](https://github.com/nbhaohao/FePractice/blob/master/todolist/todoList.gif "TodoListDemo")
 
 ## CSS 一句话笔记
 * `visibility: hidden` 和 `display: none` 的区别是：visibility 会占据原来的空间隐藏元素，display 不会占据原来的空间隐藏元素。
