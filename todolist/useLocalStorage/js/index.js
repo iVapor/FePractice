@@ -27,53 +27,52 @@ var upDateLocal = (localData) => {
     localStorage.todoData = localDataStringify
 }
 
-var addTodoToLocal = (todoText, target="allTodo", state="unCompleted") => {
+var addTodoToLocal = (todoText, state="unCompleted") => {
     var newItem = {
         text: todoText,
-        target: target,
         state: state,
     }
     var localData = getLocalData()
-    localData.push(newItem)
-    log(localData)
+    localData.newTodo.push(newItem)
     upDateLocal(localData)
 }
 
-var removeTodoToLocal = (todoText) => {
-    var data = getLocalData()
+var removeTodoToLocal = (todoText, state) => {
+    var allData = getLocalData()
+    var targetArray
     var index
-    for (var i = 0; i < data.length; i++) {
-        var item = data[i]
+    var label
+    if (state == "unCompleted") {
+        targetArray = allData.newTodo
+        label = true
+    } else {
+        targetArray = allData.doneTodo
+        label = false
+    }
+    for (var i = 0; i < targetArray.length; i++) {
+        var item = targetArray[i]
         if (item.text == todoText) {
             index = i
             break
         }
     }
-    if (index != undefined) {
-        data.splice(index, 1)
-        upDateLocal(data)
+    if (label) {
+        allData.newTodo.splice(index, 1)
+    } else {
+        allData.doneTodo.splice(index, 1)
     }
+    upDateLocal(allData)
 }
 
-var addNewTodoItem = (todoText, target="allTodo", state="unCompleted") => {
+var addNewTodoItem = (todoText, state="unCompleted") => {
     var html = todoTemplate(todoText, state)
-    if (target == "allTodo") {
+    if (state == "unCompleted") {
         var allTodoList = document.querySelector(".class-ul-allTodo")
-        allTodoList.insertBefore(html, allTodoList.childNodes[0])
+        allTodoList.appendChild(html)
         return
     }
     var doneTodoList = document.querySelector(".class-ul-doneTodo")
-    doneTodoList.insertBefore(html, doneTodoList.childNodes[0])
-}
-
-var checkRepeat = (todoText) => {
-    var data = getLocalData()
-    for (var i = 0; i < data.length; i++) {
-        var item = data[i]
-        if (item.text = todoText)
-        return false
-    }
-    return true
+    doneTodoList.appendChild(html)
 }
 
 var bindAddButtonEvent = () => {
@@ -81,8 +80,7 @@ var bindAddButtonEvent = () => {
     bindEvent(addButton, "click", function(event) {
         var todoInput = e("#id-input-todoText")
         var todoText = todoInput.value
-        var isNotRepeat = checkRepeat(todoText)
-        if (todoText && isNotRepeat) {
+        if (todoText) {
             addNewTodoItem(todoText)
             addTodoToLocal(todoText)
             todoInput.value = ""
@@ -96,39 +94,56 @@ var removeTodo = (event) => {
     parentLi.classList.add("removeLi")
     setTimeout(function() {
         parentLi.remove()
-        removeTodoToLocal(parentLi.innerText)
+        removeTodoToLocal(parentLi.innerText, parentLi.dataset.state)
     }, 300)
 }
 
-var completeTodoToLocal = (text, target, state) => {
-    var localData = getLocalData()
-    for (var i = 0; i < localData.length; i++) {
-        var item = localData[i]
+var completeTodoToLocal = (text, state) => {
+    var allData = getLocalData()
+    var targetArray
+    var index
+    var label
+    var newItem = {
+        text,
+        state,
+    }
+    if (state == "unCompleted") {
+        targetArray = allData.doneTodo
+        label = true
+    } else {
+        targetArray = allData.newTodo
+        label = false
+    }
+    for (var i = 0; i < targetArray.length; i++) {
+        var item = targetArray[i]
         if (item.text == text) {
-            item.state = state
-            item.target = target
+            index = i
         }
     }
-    upDateLocal(localData)
+    if (label) {
+        allData.doneTodo.splice(index, 1)
+        allData.newTodo.push(newItem)
+    } else {
+        allData.newTodo.splice(index, 1)
+        allData.doneTodo.push(newItem)
+    }
+    upDateLocal(allData)
 }
 
 var completeTodo = (event) => {
     var self = event.target
     var parentLi = self.closest("li")
     var state = parentLi.dataset.state
-    var target
     if (state == "unCompleted") {
         var doneList = e(".class-ul-doneTodo")
         doneList.appendChild(parentLi)
         parentLi.dataset.state = "done"
-        target = "doneTodo"
     } else {
         var unCompleteList = e(".class-ul-allTodo")
         unCompleteList.appendChild(parentLi)
         parentLi.dataset.state = "unCompleted"
-        target = "allTodo"
     }
-    completeTodoToLocal(parentLi.innerText, target, parentLi.dataset.state)
+    completeTodoToLocal(parentLi.innerText, parentLi.dataset.state)
 }
 
 var bindEvents = () => {
@@ -138,26 +153,37 @@ var bindEvents = () => {
 var getLocalData = () => {
     var localData = localStorage.todoData
     if (localData == undefined) {
-        var newArray = JSON.stringify([])
-        localStorage.todoData = newArray
-        return []
+        var todoData = {
+            newTodo: [],
+            doneTodo: [],
+        }
+        var newData = JSON.stringify(todoData)
+        localStorage.todoData = newData
+        return todoData
     }
     var parseData = JSON.parse(localData)
     return parseData
 }
 
 var insertLocalTodo = (data) => {
-    for (var i = 0; i < data.length; i++) {
-        var item = data[i]
-        addNewTodoItem(item.text, item.target, item.state)
+    var newTodoArray = data.newTodo
+    for (var i = 0; i < newTodoArray.length; i++) {
+        var item = newTodoArray[i]
+        addNewTodoItem(item.text)
+    }
+    var doneTodoArray = data.doneTodo
+    for (var i = 0; i < doneTodoArray.length; i++) {
+        var item = doneTodoArray[i]
+        addNewTodoItem(item.text, item.state)
     }
 }
 
 var initLocalData = () => {
     var data = getLocalData()
-    if (data.length > 0) {
-        insertLocalTodo(data)
+    if (data.newTodo.length == 0 && data.doneTodo.length == 0) {
+        return
     }
+    insertLocalTodo(data)
 }
 
 var __main = () => {
