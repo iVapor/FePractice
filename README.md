@@ -2,7 +2,7 @@
 
 ![](https://github.com/nbhaohao/FePractice/blob/master/musicplayer/musicPlayerDemo.gif "播放器demo")
 
-## TodoList Demo
+## TodoList Demo (node版本需要执行 yarn install 安装库后才可运行)
 
 ![](https://github.com/nbhaohao/FePractice/blob/master/todolist/todoList.gif "TodoListDemo")
 
