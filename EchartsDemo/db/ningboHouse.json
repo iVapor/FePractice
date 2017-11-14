@@ -1,0 +1,4195 @@
+[
+  {
+    "info": "2室1厅",
+    "area": "43",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2600"
+  },
+  {
+    "info": "1室1厅",
+    "area": "40",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "530"
+  },
+  {
+    "info": "2室1厅",
+    "area": "77",
+    "forward": "朝南",
+    "position": "江北",
+    "price": "1100"
+  },
+  {
+    "info": "2室1厅",
+    "area": "56",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2100"
+  },
+  {
+    "info": "2室1厅",
+    "area": "68",
+    "forward": "朝南",
+    "position": "海曙",
+    "price": "1400"
+  },
+  {
+    "info": "2室1厅",
+    "area": "66",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2700"
+  },
+  {
+    "info": "2室1厅",
+    "area": "65",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2300"
+  },
+  {
+    "info": "3室1厅",
+    "area": "66",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2400"
+  },
+  {
+    "info": "2室2厅",
+    "area": "87",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2500"
+  },
+  {
+    "info": "3室1厅",
+    "area": "90",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "3400"
+  },
+  {
+    "info": "3室2厅",
+    "area": "138",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2600"
+  },
+  {
+    "info": "3室2厅",
+    "area": "145",
+    "forward": "朝南",
+    "position": "江北",
+    "price": "6000"
+  },
+  {
+    "info": "1室1厅",
+    "area": "51",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "2200"
+  },
+  {
+    "info": "3室2厅",
+    "area": "115",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "3400"
+  },
+  {
+    "info": "3室2厅",
+    "area": "115",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "3500"
+  },
+  {
+    "info": "1室1厅",
+    "area": "66",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "1850"
+  },
+  {
+    "info": "3室2厅",
+    "area": "100",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "3000"
+  },
+  {
+    "info": "2室2厅",
+    "area": "45",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2800"
+  },
+  {
+    "info": "3室2厅",
+    "area": "110",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "5000"
+  },
+  {
+    "info": "3室2厅",
+    "area": "104",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "4000"
+  },
+  {
+    "info": "2室2厅",
+    "area": "114",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "7500"
+  },
+  {
+    "info": "3室2厅",
+    "area": "180",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "6000"
+  },
+  {
+    "info": "3室2厅",
+    "area": "206",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "6500"
+  },
+  {
+    "info": "1室1厅",
+    "area": "54",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2500"
+  },
+  {
+    "info": "3室2厅",
+    "area": "140",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "5500"
+  },
+  {
+    "info": "1室1厅",
+    "area": "37",
+    "forward": "朝南",
+    "position": "海曙",
+    "price": "500"
+  },
+  {
+    "info": "3室2厅",
+    "area": "108",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "3000"
+  },
+  {
+    "info": "1室1厅",
+    "area": "42",
+    "forward": "朝南",
+    "position": "江北",
+    "price": "1500"
+  },
+  {
+    "info": "2室1厅",
+    "area": "77",
+    "forward": "朝南",
+    "position": "北仑",
+    "price": "1100"
+  },
+  {
+    "info": "1室1厅",
+    "area": "36",
+    "forward": "朝南",
+    "position": "余姚",
+    "price": "500"
+  },
+  {
+    "info": "2室1厅",
+    "area": "43",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2600"
+  },
+  {
+    "info": "1室1厅",
+    "area": "40",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "530"
+  },
+  {
+    "info": "2室1厅",
+    "area": "77",
+    "forward": "朝南",
+    "position": "江北",
+    "price": "1100"
+  },
+  {
+    "info": "2室1厅",
+    "area": "56",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2100"
+  },
+  {
+    "info": "2室1厅",
+    "area": "68",
+    "forward": "朝南",
+    "position": "海曙",
+    "price": "1400"
+  },
+  {
+    "info": "2室1厅",
+    "area": "66",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2700"
+  },
+  {
+    "info": "2室1厅",
+    "area": "65",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2300"
+  },
+  {
+    "info": "3室1厅",
+    "area": "66",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2400"
+  },
+  {
+    "info": "2室2厅",
+    "area": "87",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2500"
+  },
+  {
+    "info": "3室1厅",
+    "area": "90",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "3400"
+  },
+  {
+    "info": "3室2厅",
+    "area": "138",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2600"
+  },
+  {
+    "info": "3室2厅",
+    "area": "145",
+    "forward": "朝南",
+    "position": "江北",
+    "price": "6000"
+  },
+  {
+    "info": "1室1厅",
+    "area": "51",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "2200"
+  },
+  {
+    "info": "3室2厅",
+    "area": "115",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "3400"
+  },
+  {
+    "info": "3室2厅",
+    "area": "115",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "3500"
+  },
+  {
+    "info": "1室1厅",
+    "area": "66",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "1850"
+  },
+  {
+    "info": "3室2厅",
+    "area": "100",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "3000"
+  },
+  {
+    "info": "2室2厅",
+    "area": "45",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2800"
+  },
+  {
+    "info": "3室2厅",
+    "area": "110",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "5000"
+  },
+  {
+    "info": "3室2厅",
+    "area": "104",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "4000"
+  },
+  {
+    "info": "2室2厅",
+    "area": "114",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "7500"
+  },
+  {
+    "info": "3室2厅",
+    "area": "180",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "6000"
+  },
+  {
+    "info": "3室2厅",
+    "area": "206",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "6500"
+  },
+  {
+    "info": "1室1厅",
+    "area": "54",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2500"
+  },
+  {
+    "info": "3室2厅",
+    "area": "140",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "5500"
+  },
+  {
+    "info": "1室1厅",
+    "area": "37",
+    "forward": "朝南",
+    "position": "海曙",
+    "price": "500"
+  },
+  {
+    "info": "3室2厅",
+    "area": "108",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "3000"
+  },
+  {
+    "info": "1室1厅",
+    "area": "42",
+    "forward": "朝南",
+    "position": "江北",
+    "price": "1500"
+  },
+  {
+    "info": "2室1厅",
+    "area": "77",
+    "forward": "朝南",
+    "position": "北仑",
+    "price": "1100"
+  },
+  {
+    "info": "1室1厅",
+    "area": "36",
+    "forward": "朝南",
+    "position": "余姚",
+    "price": "500"
+  },
+  {
+    "info": "1室1厅",
+    "area": "42",
+    "forward": "朝北",
+    "position": "鄞州",
+    "price": "2000"
+  },
+  {
+    "info": "3室2厅",
+    "area": "98",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "3300"
+  },
+  {
+    "info": "3室2厅",
+    "area": "128",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "3500"
+  },
+  {
+    "info": "2室2厅",
+    "area": "98",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2700"
+  },
+  {
+    "info": "2室1厅",
+    "area": "56",
+    "position": "鄞州",
+    "price": "1700"
+  },
+  {
+    "info": "2室1厅",
+    "area": "60",
+    "position": "鄞州",
+    "price": "2100"
+  },
+  {
+    "info": "3室1厅",
+    "area": "95",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "3000"
+  },
+  {
+    "info": "2室1厅",
+    "area": "64",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "1500"
+  },
+  {
+    "info": "3室2厅",
+    "area": "112",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "3800"
+  },
+  {
+    "info": "2室2厅",
+    "area": "80",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "3000"
+  },
+  {
+    "info": "2室1厅",
+    "area": "52",
+    "forward": "朝南",
+    "position": "海曙",
+    "price": "1700"
+  },
+  {
+    "info": "3室1厅",
+    "area": "83",
+    "forward": "朝南北",
+    "position": "海曙",
+    "price": "2100"
+  },
+  {
+    "info": "3室1厅",
+    "area": "86",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "2800"
+  },
+  {
+    "info": "2室2厅",
+    "area": "106",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "3600"
+  },
+  {
+    "info": "2室1厅",
+    "area": "77",
+    "forward": "朝南",
+    "position": "北仑",
+    "price": "1100"
+  },
+  {
+    "info": "2室1厅",
+    "area": "81",
+    "forward": "朝南",
+    "position": "镇海",
+    "price": "1200"
+  },
+  {
+    "info": "2室1厅",
+    "area": "65",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2900"
+  },
+  {
+    "info": "3室2厅",
+    "area": "115",
+    "forward": "朝南北",
+    "position": "海曙",
+    "price": "2400"
+  },
+  {
+    "info": "2室1厅",
+    "area": "77",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "1100"
+  },
+  {
+    "info": "1室1厅",
+    "area": "40",
+    "forward": "朝南",
+    "position": "海曙",
+    "price": "530"
+  },
+  {
+    "info": "1室1厅",
+    "area": "50",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "2600"
+  },
+  {
+    "info": "2室1厅",
+    "area": "70",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2800"
+  },
+  {
+    "info": "3室2厅",
+    "area": "110",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "4800"
+  },
+  {
+    "info": "1室1厅",
+    "area": "39",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "550"
+  },
+  {
+    "info": "2室2厅",
+    "area": "75",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "4200"
+  },
+  {
+    "info": "1室1厅",
+    "area": "35",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "1500"
+  },
+  {
+    "info": "1室1厅",
+    "area": "53",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2200"
+  },
+  {
+    "info": "1室1厅",
+    "area": "54",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2300"
+  },
+  {
+    "info": "3室2厅",
+    "area": "100",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "4900"
+  },
+  {
+    "info": "2室2厅",
+    "area": "45",
+    "forward": "朝西",
+    "position": "鄞州",
+    "price": "2800"
+  },
+  {
+    "info": "1室1厅",
+    "area": "68",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2600"
+  },
+  {
+    "info": "1室1厅",
+    "area": "38",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "1800"
+  },
+  {
+    "info": "3室2厅",
+    "area": "104",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "4000"
+  },
+  {
+    "info": "4室2厅",
+    "area": "191",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "12000"
+  },
+  {
+    "info": "1室1厅",
+    "area": "42",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "600"
+  },
+  {
+    "info": "1室1厅",
+    "area": "42",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "600"
+  },
+  {
+    "info": "2室1厅",
+    "area": "80",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "1050"
+  },
+  {
+    "info": "3户合租",
+    "area": "110",
+    "forward": "朝北",
+    "position": "海曙",
+    "price": "650"
+  },
+  {
+    "info": "2室1厅",
+    "area": "57",
+    "forward": "朝南",
+    "position": "江北",
+    "price": "1000"
+  },
+  {
+    "info": "3室1厅",
+    "area": "93",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "3500"
+  },
+  {
+    "info": "2室1厅",
+    "area": "57",
+    "forward": "朝南",
+    "position": "江北",
+    "price": "2000"
+  },
+  {
+    "info": "3室2厅",
+    "area": "120",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "7500"
+  },
+  {
+    "info": "2室2厅",
+    "area": "75",
+    "forward": "朝南",
+    "position": "江北",
+    "price": "3000"
+  },
+  {
+    "info": "2室2厅",
+    "area": "78",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "3100"
+  },
+  {
+    "info": "2户合租",
+    "area": "71",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "1100"
+  },
+  {
+    "info": "2室1厅",
+    "area": "55",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2200"
+  },
+  {
+    "info": "1室1厅",
+    "area": "20",
+    "forward": "朝南北",
+    "position": "镇海",
+    "price": "800"
+  },
+  {
+    "info": "3室2厅",
+    "area": "137",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "5500"
+  },
+  {
+    "info": "2室1厅",
+    "area": "70",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "3500"
+  },
+  {
+    "info": "3室2厅",
+    "area": "147",
+    "forward": "朝南",
+    "position": "江北",
+    "price": "9000"
+  },
+  {
+    "info": "2室1厅",
+    "area": "60",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "1800"
+  },
+  {
+    "info": "3室2厅",
+    "area": "125",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "4600"
+  },
+  {
+    "info": "3室2厅",
+    "area": "145",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "5300"
+  },
+  {
+    "info": "1室1厅",
+    "area": "48",
+    "forward": "朝东",
+    "position": "鄞州",
+    "price": "2000"
+  },
+  {
+    "info": "3室1厅",
+    "area": "87",
+    "forward": "朝南",
+    "position": "北仑",
+    "price": "2800"
+  },
+  {
+    "info": "2室1厅",
+    "area": "78",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2400"
+  },
+  {
+    "info": "1室1厅",
+    "area": "59",
+    "forward": "朝北",
+    "position": "鄞州",
+    "price": "2100"
+  },
+  {
+    "info": "2室1厅",
+    "area": "80",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2400"
+  },
+  {
+    "info": "3室1厅",
+    "area": "102",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "3800"
+  },
+  {
+    "info": "2室1厅",
+    "area": "73",
+    "forward": "朝南",
+    "position": "江北",
+    "price": "1500"
+  },
+  {
+    "info": "4室2厅",
+    "area": "180",
+    "forward": "朝南",
+    "position": "江北",
+    "price": "8500"
+  },
+  {
+    "info": "2户合租",
+    "area": "105",
+    "forward": "朝南",
+    "position": "海曙",
+    "price": "650"
+  },
+  {
+    "info": "3室1厅",
+    "area": "82",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "2700"
+  },
+  {
+    "info": "3室2厅",
+    "area": "93",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "4000"
+  },
+  {
+    "info": "3室2厅",
+    "area": "91",
+    "forward": "朝南",
+    "position": "镇海",
+    "price": "750"
+  },
+  {
+    "info": "1室1厅",
+    "area": "47",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2100"
+  },
+  {
+    "info": "1室1厅",
+    "area": "20",
+    "forward": "朝南",
+    "position": "江北",
+    "price": "850"
+  },
+  {
+    "info": "1室1厅",
+    "area": "50",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "3100"
+  },
+  {
+    "info": "2室1厅",
+    "area": "90",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2500"
+  },
+  {
+    "info": "2室0厅",
+    "area": "47",
+    "forward": "朝南北",
+    "position": "海曙",
+    "price": "1300"
+  },
+  {
+    "info": "3室1厅",
+    "area": "100",
+    "forward": "朝南",
+    "position": "海曙",
+    "price": "2000"
+  },
+  {
+    "info": "3室1厅",
+    "area": "46",
+    "forward": "朝西",
+    "position": "鄞州",
+    "price": "3000"
+  },
+  {
+    "info": "2室2厅",
+    "area": "88",
+    "forward": "朝南",
+    "position": "慈溪",
+    "price": "1400"
+  },
+  {
+    "info": "1室1厅",
+    "area": "30",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "1500"
+  },
+  {
+    "info": "2室2厅",
+    "area": "75",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "2700"
+  },
+  {
+    "info": "1室1厅",
+    "area": "53",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2900"
+  },
+  {
+    "info": "2室1厅",
+    "area": "80",
+    "forward": "朝西南",
+    "position": "海曙",
+    "price": "1800"
+  },
+  {
+    "info": "3室1厅",
+    "area": "90",
+    "forward": "朝南",
+    "position": "江北",
+    "price": "3500"
+  },
+  {
+    "info": "3室2厅",
+    "area": "139",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "6000"
+  },
+  {
+    "info": "2室1厅",
+    "area": "80",
+    "forward": "朝南",
+    "position": "海曙",
+    "price": "1050"
+  },
+  {
+    "info": "2室1厅",
+    "area": "60",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2400"
+  },
+  {
+    "info": "3室2厅",
+    "area": "125",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "3600"
+  },
+  {
+    "info": "1室1厅",
+    "area": "36",
+    "forward": "朝东",
+    "position": "鄞州",
+    "price": "1500"
+  },
+  {
+    "info": "2室2厅",
+    "area": "86",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "3500"
+  },
+  {
+    "info": "3室2厅",
+    "area": "90",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "3500"
+  },
+  {
+    "info": "3室2厅",
+    "area": "116",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "4500"
+  },
+  {
+    "info": "3室2厅",
+    "area": "112",
+    "position": "海曙",
+    "price": "3500"
+  },
+  {
+    "info": "3室2厅",
+    "area": "135",
+    "position": "鄞州",
+    "price": "4800"
+  },
+  {
+    "info": "3室1厅",
+    "area": "120",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "3000"
+  },
+  {
+    "info": "2室1厅",
+    "area": "79",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "980"
+  },
+  {
+    "info": "3室1厅",
+    "area": "120",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "2500"
+  },
+  {
+    "info": "4室1厅",
+    "area": "115",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "3800"
+  },
+  {
+    "info": "2室2厅",
+    "area": "62",
+    "forward": "朝南北",
+    "position": "海曙",
+    "price": "1100"
+  },
+  {
+    "info": "3室1厅",
+    "area": "70",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "1600"
+  },
+  {
+    "info": "2室1厅",
+    "area": "82",
+    "forward": "朝南北",
+    "position": "江北",
+    "price": "1700"
+  },
+  {
+    "info": "3室2厅",
+    "area": "120",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "4600"
+  },
+  {
+    "info": "3室1厅",
+    "area": "98",
+    "forward": "朝南",
+    "position": "江北",
+    "price": "3800"
+  },
+  {
+    "info": "2室1厅",
+    "area": "78",
+    "forward": "朝南",
+    "position": "海曙",
+    "price": "950"
+  },
+  {
+    "info": "1室1厅",
+    "area": "48",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2200"
+  },
+  {
+    "info": "2室1厅",
+    "area": "99",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "4000"
+  },
+  {
+    "info": "3室2厅",
+    "area": "132",
+    "forward": "朝南",
+    "position": "海曙",
+    "price": "5700"
+  },
+  {
+    "info": "3室2厅",
+    "area": "154",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "6500"
+  },
+  {
+    "info": "3室2厅",
+    "area": "121",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "5000"
+  },
+  {
+    "info": "3室2厅",
+    "area": "92",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "2800"
+  },
+  {
+    "info": "2室2厅",
+    "area": "65",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2000"
+  },
+  {
+    "info": "1室1厅",
+    "area": "41",
+    "forward": "朝南",
+    "position": "镇海",
+    "price": "500"
+  },
+  {
+    "info": "1室1厅",
+    "area": "42",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "600"
+  },
+  {
+    "info": "3室2厅",
+    "area": "146",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "5300"
+  },
+  {
+    "info": "3室2厅",
+    "area": "127",
+    "position": "海曙",
+    "price": "4600"
+  },
+  {
+    "info": "4室2厅",
+    "area": "100",
+    "position": "鄞州",
+    "price": "3200"
+  },
+  {
+    "info": "4室2厅",
+    "area": "187",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "7000"
+  },
+  {
+    "info": "2室2厅",
+    "area": "135",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "6500"
+  },
+  {
+    "info": "1室1厅",
+    "area": "25",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "1600"
+  },
+  {
+    "info": "2户合租",
+    "area": "30",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "1200"
+  },
+  {
+    "info": "3室2厅",
+    "area": "78",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "3000"
+  },
+  {
+    "info": "3室2厅",
+    "area": "91",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "4800"
+  },
+  {
+    "info": "3室2厅",
+    "area": "169",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "5800"
+  },
+  {
+    "info": "3室2厅",
+    "area": "104",
+    "forward": "朝南",
+    "position": "江北",
+    "price": "1600"
+  },
+  {
+    "info": "3室1厅",
+    "area": "98",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "3800"
+  },
+  {
+    "info": "4室2厅",
+    "area": "300",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "22000"
+  },
+  {
+    "info": "3室2厅",
+    "area": "169",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "5800"
+  },
+  {
+    "info": "3室2厅",
+    "area": "104",
+    "forward": "朝南",
+    "position": "江北",
+    "price": "1600"
+  },
+  {
+    "info": "3室1厅",
+    "area": "98",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "3800"
+  },
+  {
+    "info": "4室2厅",
+    "area": "300",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "22000"
+  },
+  {
+    "info": "2户合租",
+    "area": "30",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "1300"
+  },
+  {
+    "info": "1室1厅",
+    "area": "38",
+    "forward": "朝东",
+    "position": "鄞州",
+    "price": "1300"
+  },
+  {
+    "info": "2室1厅",
+    "area": "65",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2900"
+  },
+  {
+    "info": "2户合租",
+    "area": "35",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "950"
+  },
+  {
+    "info": "3室2厅",
+    "area": "115",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "5500"
+  },
+  {
+    "info": "3室2厅",
+    "area": "88",
+    "forward": "朝南",
+    "position": "海曙",
+    "price": "2500"
+  },
+  {
+    "info": "2室2厅",
+    "area": "94",
+    "forward": "朝南",
+    "position": "海曙",
+    "price": "2500"
+  },
+  {
+    "info": "2室1厅",
+    "area": "68",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "3600"
+  },
+  {
+    "info": "2室1厅",
+    "area": "68",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2650"
+  },
+  {
+    "info": "2室1厅",
+    "area": "70",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2800"
+  },
+  {
+    "info": "2室1厅",
+    "area": "78",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2800"
+  },
+  {
+    "info": "3室2厅",
+    "area": "135",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "4300"
+  },
+  {
+    "info": "2室2厅",
+    "area": "89",
+    "forward": "朝南北",
+    "position": "江北",
+    "price": "1800"
+  },
+  {
+    "info": "3室1厅",
+    "area": "100",
+    "forward": "朝南北",
+    "position": "江北",
+    "price": "2400"
+  },
+  {
+    "info": "2室1厅",
+    "area": "100",
+    "forward": "朝南北",
+    "position": "江北",
+    "price": "2000"
+  },
+  {
+    "info": "1室1厅",
+    "area": "47",
+    "forward": "朝东",
+    "position": "鄞州",
+    "price": "2100"
+  },
+  {
+    "info": "3室1厅",
+    "area": "89",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2200"
+  },
+  {
+    "info": "2室1厅",
+    "area": "86",
+    "forward": "朝南北",
+    "position": "江北",
+    "price": "2300"
+  },
+  {
+    "info": "1室1厅",
+    "area": "40",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "530"
+  },
+  {
+    "info": "2室1厅",
+    "area": "72",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "3000"
+  },
+  {
+    "info": "1室1厅",
+    "area": "37",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "500"
+  },
+  {
+    "info": "2户合租",
+    "area": "15",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "1150"
+  },
+  {
+    "info": "1室1厅",
+    "area": "50",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2200"
+  },
+  {
+    "info": "2室2厅",
+    "area": "80",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "3200"
+  },
+  {
+    "info": "1室1厅",
+    "area": "37",
+    "forward": "朝南",
+    "position": "余姚",
+    "price": "500"
+  },
+  {
+    "info": "1室1厅",
+    "area": "39",
+    "forward": "朝南",
+    "position": "北仑",
+    "price": "550"
+  },
+  {
+    "info": "1室1厅",
+    "area": "37",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "500"
+  },
+  {
+    "info": "2室1厅",
+    "area": "63",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2000"
+  },
+  {
+    "info": "1室1厅",
+    "area": "68",
+    "forward": "朝北",
+    "position": "鄞州",
+    "price": "2600"
+  },
+  {
+    "info": "1室0厅",
+    "area": "33",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "1800"
+  },
+  {
+    "info": "2室1厅",
+    "area": "80",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "3200"
+  },
+  {
+    "info": "2室1厅",
+    "area": "80",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "3000"
+  },
+  {
+    "info": "1室1厅",
+    "area": "70",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2000"
+  },
+  {
+    "info": "3室2厅",
+    "area": "121",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "6500"
+  },
+  {
+    "info": "3室1厅",
+    "area": "120",
+    "forward": "朝南",
+    "position": "镇海",
+    "price": "2800"
+  },
+  {
+    "info": "3室2厅",
+    "area": "95",
+    "forward": "朝南",
+    "position": "海曙",
+    "price": "3000"
+  },
+  {
+    "info": "2室2厅",
+    "area": "95",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "3600"
+  },
+  {
+    "info": "3室1厅",
+    "area": "96",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "3550"
+  },
+  {
+    "info": "3室2厅",
+    "area": "92",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2400"
+  },
+  {
+    "info": "4室2厅",
+    "area": "175",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "4800"
+  },
+  {
+    "info": "2室2厅",
+    "area": "85",
+    "forward": "朝南",
+    "position": "海曙",
+    "price": "2800"
+  },
+  {
+    "info": "3室1厅",
+    "area": "92",
+    "forward": "朝东南",
+    "position": "鄞州",
+    "price": "3600"
+  },
+  {
+    "info": "2室1厅",
+    "area": "61",
+    "forward": "朝南",
+    "position": "海曙",
+    "price": "1700"
+  },
+  {
+    "info": "2室1厅",
+    "area": "61",
+    "forward": "朝南",
+    "position": "海曙",
+    "price": "2000"
+  },
+  {
+    "info": "2室1厅",
+    "area": "85",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2800"
+  },
+  {
+    "info": "3室1厅",
+    "area": "90",
+    "forward": "朝南",
+    "position": "海曙",
+    "price": "2700"
+  },
+  {
+    "info": "2室1厅",
+    "area": "70",
+    "position": "海曙",
+    "price": "1800"
+  },
+  {
+    "info": "2室2厅",
+    "area": "91",
+    "forward": "朝南",
+    "position": "海曙",
+    "price": "2800"
+  },
+  {
+    "info": "4室3厅",
+    "area": "110",
+    "forward": "朝南",
+    "position": "海曙",
+    "price": "12500"
+  },
+  {
+    "info": "1室0厅",
+    "area": "18",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "650"
+  },
+  {
+    "info": "2室1厅",
+    "area": "81",
+    "forward": "朝南",
+    "position": "海曙",
+    "price": "1200"
+  },
+  {
+    "info": "2室1厅",
+    "area": "79",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "5000"
+  },
+  {
+    "info": "1室1厅",
+    "area": "53",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "3200"
+  },
+  {
+    "info": "1室1厅",
+    "area": "43",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2300"
+  },
+  {
+    "info": "1室1厅",
+    "area": "50",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2800"
+  },
+  {
+    "info": "1室1厅",
+    "area": "53",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "3600"
+  },
+  {
+    "info": "2室2厅",
+    "area": "62",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "5500"
+  },
+  {
+    "info": "3室2厅",
+    "area": "100",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "3500"
+  },
+  {
+    "info": "1室1厅",
+    "area": "38",
+    "forward": "朝南",
+    "position": "海曙",
+    "price": "580"
+  },
+  {
+    "info": "3室2厅",
+    "area": "110",
+    "forward": "朝南北",
+    "position": "海曙",
+    "price": "3600"
+  },
+  {
+    "info": "2室2厅",
+    "area": "87",
+    "forward": "朝南",
+    "position": "江北",
+    "price": "1900"
+  },
+  {
+    "info": "3室2厅",
+    "area": "132",
+    "forward": "朝南",
+    "position": "江北",
+    "price": "3100"
+  },
+  {
+    "info": "2室2厅",
+    "area": "95",
+    "forward": "朝南",
+    "position": "江北",
+    "price": "3600"
+  },
+  {
+    "info": "2室1厅",
+    "area": "93",
+    "forward": "朝南",
+    "position": "江北",
+    "price": "2800"
+  },
+  {
+    "info": "3室1厅",
+    "area": "100",
+    "forward": "朝南",
+    "position": "江北",
+    "price": "3500"
+  },
+  {
+    "info": "3室2厅",
+    "area": "84",
+    "forward": "朝南",
+    "position": "江北",
+    "price": "2400"
+  },
+  {
+    "info": "3室2厅",
+    "area": "95",
+    "forward": "朝南",
+    "position": "江北",
+    "price": "1500"
+  },
+  {
+    "info": "2室1厅",
+    "area": "75",
+    "forward": "朝南",
+    "position": "江北",
+    "price": "2400"
+  },
+  {
+    "info": "2室1厅",
+    "area": "66",
+    "forward": "朝南",
+    "position": "江北",
+    "price": "2500"
+  },
+  {
+    "info": "2室1厅",
+    "area": "60",
+    "forward": "朝南",
+    "position": "江北",
+    "price": "1800"
+  },
+  {
+    "info": "2室1厅",
+    "area": "66",
+    "forward": "朝南",
+    "position": "江北",
+    "price": "1600"
+  },
+  {
+    "info": "2室1厅",
+    "area": "60",
+    "forward": "朝南",
+    "position": "江北",
+    "price": "1500"
+  },
+  {
+    "info": "3室2厅",
+    "area": "95",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "4300"
+  },
+  {
+    "info": "3室2厅",
+    "area": "131",
+    "forward": "朝南",
+    "position": "海曙",
+    "price": "3200"
+  },
+  {
+    "info": "3室2厅",
+    "area": "137",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "8000"
+  },
+  {
+    "info": "3室2厅",
+    "area": "120",
+    "forward": "朝南",
+    "position": "海曙",
+    "price": "3200"
+  },
+  {
+    "info": "1室1厅",
+    "area": "50",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2500"
+  },
+  {
+    "info": "2室1厅",
+    "area": "84",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2300"
+  },
+  {
+    "info": "2室2厅",
+    "area": "82",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "4200"
+  },
+  {
+    "info": "3室1厅",
+    "area": "90",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "3000"
+  },
+  {
+    "info": "3室1厅",
+    "area": "90",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "3200"
+  },
+  {
+    "info": "2室1厅",
+    "area": "75",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "2700"
+  },
+  {
+    "info": "1室1厅",
+    "area": "53",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "3800"
+  },
+  {
+    "info": "2室2厅",
+    "area": "95",
+    "forward": "朝南",
+    "position": "慈溪",
+    "price": "1800"
+  },
+  {
+    "info": "2室1厅",
+    "area": "55",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "2300"
+  },
+  {
+    "info": "2室1厅",
+    "area": "75",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "3200"
+  },
+  {
+    "info": "3室2厅",
+    "area": "145",
+    "forward": "朝南",
+    "position": "江北",
+    "price": "9000"
+  },
+  {
+    "info": "2室1厅",
+    "area": "58",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2500"
+  },
+  {
+    "info": "3室1厅",
+    "area": "77",
+    "forward": "朝南北",
+    "position": "江北",
+    "price": "2100"
+  },
+  {
+    "info": "2室1厅",
+    "area": "64",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2400"
+  },
+  {
+    "info": "3室2厅",
+    "area": "125",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "3600"
+  },
+  {
+    "info": "1室1厅",
+    "area": "45",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "1998"
+  },
+  {
+    "info": "1室1厅",
+    "area": "25",
+    "forward": "朝南",
+    "position": "镇海",
+    "price": "1000"
+  },
+  {
+    "info": "2室1厅",
+    "area": "65",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2500"
+  },
+  {
+    "info": "3室2厅",
+    "area": "117",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "7000"
+  },
+  {
+    "info": "3室1厅",
+    "area": "99",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "3000"
+  },
+  {
+    "info": "1室1厅",
+    "area": "55",
+    "forward": "朝南北",
+    "position": "北仑",
+    "price": "2000"
+  },
+  {
+    "info": "3室2厅",
+    "area": "137",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "5000"
+  },
+  {
+    "info": "1室1厅",
+    "area": "96",
+    "forward": "朝西",
+    "position": "鄞州",
+    "price": "2800"
+  },
+  {
+    "info": "2室1厅",
+    "area": "55",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "1600"
+  },
+  {
+    "info": "1室1厅",
+    "area": "52",
+    "forward": "朝南",
+    "position": "北仑",
+    "price": "1600"
+  },
+  {
+    "info": "2室2厅",
+    "area": "73",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2500"
+  },
+  {
+    "info": "3室2厅",
+    "area": "250",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "10000"
+  },
+  {
+    "info": "2室2厅",
+    "area": "139",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "5500"
+  },
+  {
+    "info": "3室2厅",
+    "area": "150",
+    "forward": "朝南",
+    "position": "江北",
+    "price": "8500"
+  },
+  {
+    "info": "2室1厅",
+    "area": "77",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "3500"
+  },
+  {
+    "info": "3室2厅",
+    "area": "145",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "4500"
+  },
+  {
+    "info": "3室2厅",
+    "area": "100",
+    "forward": "朝南",
+    "position": "镇海",
+    "price": "1500"
+  },
+  {
+    "info": "1室1厅",
+    "area": "47",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "1900"
+  },
+  {
+    "info": "2室1厅",
+    "area": "63",
+    "forward": "朝南",
+    "position": "江北",
+    "price": "2300"
+  },
+  {
+    "info": "2室2厅",
+    "area": "88",
+    "forward": "朝南",
+    "position": "海曙",
+    "price": "3000"
+  },
+  {
+    "info": "3室1厅",
+    "area": "85",
+    "forward": "朝南",
+    "position": "海曙",
+    "price": "2600"
+  },
+  {
+    "info": "3室1厅",
+    "area": "114",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "7500"
+  },
+  {
+    "info": "3室1厅",
+    "area": "97",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "3500"
+  },
+  {
+    "info": "2室1厅",
+    "area": "66",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2500"
+  },
+  {
+    "info": "2室1厅",
+    "area": "54",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "2400"
+  },
+  {
+    "info": "2室1厅",
+    "area": "70",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2800"
+  },
+  {
+    "info": "3室2厅",
+    "area": "108",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "4000"
+  },
+  {
+    "info": "2室1厅",
+    "area": "43",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2600"
+  },
+  {
+    "info": "2室1厅",
+    "area": "90",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "3500"
+  },
+  {
+    "info": "2室1厅",
+    "area": "43",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2600"
+  },
+  {
+    "info": "1室1厅",
+    "area": "40",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "530"
+  },
+  {
+    "info": "2室1厅",
+    "area": "77",
+    "forward": "朝南",
+    "position": "江北",
+    "price": "1100"
+  },
+  {
+    "info": "2室1厅",
+    "area": "56",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2100"
+  },
+  {
+    "info": "2室1厅",
+    "area": "68",
+    "forward": "朝南",
+    "position": "海曙",
+    "price": "1400"
+  },
+  {
+    "info": "2室1厅",
+    "area": "66",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2700"
+  },
+  {
+    "info": "2室1厅",
+    "area": "65",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2300"
+  },
+  {
+    "info": "3室1厅",
+    "area": "66",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2400"
+  },
+  {
+    "info": "2室2厅",
+    "area": "87",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2500"
+  },
+  {
+    "info": "3室1厅",
+    "area": "90",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "3400"
+  },
+  {
+    "info": "3室2厅",
+    "area": "138",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2600"
+  },
+  {
+    "info": "3室2厅",
+    "area": "145",
+    "forward": "朝南",
+    "position": "江北",
+    "price": "6000"
+  },
+  {
+    "info": "1室1厅",
+    "area": "51",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "2200"
+  },
+  {
+    "info": "3室2厅",
+    "area": "115",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "3400"
+  },
+  {
+    "info": "3室2厅",
+    "area": "115",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "3500"
+  },
+  {
+    "info": "1室1厅",
+    "area": "66",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "1850"
+  },
+  {
+    "info": "3室2厅",
+    "area": "100",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "3000"
+  },
+  {
+    "info": "2室2厅",
+    "area": "45",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2800"
+  },
+  {
+    "info": "3室2厅",
+    "area": "110",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "5000"
+  },
+  {
+    "info": "3室2厅",
+    "area": "104",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "4000"
+  },
+  {
+    "info": "2室2厅",
+    "area": "114",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "7500"
+  },
+  {
+    "info": "3室2厅",
+    "area": "180",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "6000"
+  },
+  {
+    "info": "3室2厅",
+    "area": "206",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "6500"
+  },
+  {
+    "info": "1室1厅",
+    "area": "54",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2500"
+  },
+  {
+    "info": "3室2厅",
+    "area": "140",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "5500"
+  },
+  {
+    "info": "1室1厅",
+    "area": "37",
+    "forward": "朝南",
+    "position": "海曙",
+    "price": "500"
+  },
+  {
+    "info": "2室1厅",
+    "area": "70",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2800"
+  },
+  {
+    "info": "3室2厅",
+    "area": "108",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "4000"
+  },
+  {
+    "info": "2室1厅",
+    "area": "43",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2600"
+  },
+  {
+    "info": "2室1厅",
+    "area": "90",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "3500"
+  },
+  {
+    "info": "2室1厅",
+    "area": "43",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2600"
+  },
+  {
+    "info": "1室1厅",
+    "area": "40",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "530"
+  },
+  {
+    "info": "2室1厅",
+    "area": "77",
+    "forward": "朝南",
+    "position": "江北",
+    "price": "1100"
+  },
+  {
+    "info": "2室1厅",
+    "area": "56",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2100"
+  },
+  {
+    "info": "2室1厅",
+    "area": "68",
+    "forward": "朝南",
+    "position": "海曙",
+    "price": "1400"
+  },
+  {
+    "info": "2室1厅",
+    "area": "66",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2700"
+  },
+  {
+    "info": "2室1厅",
+    "area": "65",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2300"
+  },
+  {
+    "info": "3室1厅",
+    "area": "66",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2400"
+  },
+  {
+    "info": "2室2厅",
+    "area": "87",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2500"
+  },
+  {
+    "info": "3室1厅",
+    "area": "90",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "3400"
+  },
+  {
+    "info": "3室2厅",
+    "area": "138",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2600"
+  },
+  {
+    "info": "3室2厅",
+    "area": "145",
+    "forward": "朝南",
+    "position": "江北",
+    "price": "6000"
+  },
+  {
+    "info": "1室1厅",
+    "area": "51",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "2200"
+  },
+  {
+    "info": "3室2厅",
+    "area": "115",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "3400"
+  },
+  {
+    "info": "3室2厅",
+    "area": "115",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "3500"
+  },
+  {
+    "info": "1室1厅",
+    "area": "66",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "1850"
+  },
+  {
+    "info": "3室2厅",
+    "area": "100",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "3000"
+  },
+  {
+    "info": "2室2厅",
+    "area": "45",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2800"
+  },
+  {
+    "info": "3室2厅",
+    "area": "110",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "5000"
+  },
+  {
+    "info": "3室2厅",
+    "area": "104",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "4000"
+  },
+  {
+    "info": "2室2厅",
+    "area": "114",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "7500"
+  },
+  {
+    "info": "3室2厅",
+    "area": "180",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "6000"
+  },
+  {
+    "info": "3室2厅",
+    "area": "206",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "6500"
+  },
+  {
+    "info": "1室1厅",
+    "area": "54",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2500"
+  },
+  {
+    "info": "3室2厅",
+    "area": "140",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "5500"
+  },
+  {
+    "info": "1室1厅",
+    "area": "37",
+    "forward": "朝南",
+    "position": "海曙",
+    "price": "500"
+  },
+  {
+    "info": "2室1厅",
+    "area": "70",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2800"
+  },
+  {
+    "info": "3室2厅",
+    "area": "108",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "4000"
+  },
+  {
+    "info": "2室1厅",
+    "area": "43",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2600"
+  },
+  {
+    "info": "2室1厅",
+    "area": "90",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "3500"
+  },
+  {
+    "info": "2室1厅",
+    "area": "43",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2600"
+  },
+  {
+    "info": "1室1厅",
+    "area": "40",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "530"
+  },
+  {
+    "info": "2室1厅",
+    "area": "77",
+    "forward": "朝南",
+    "position": "江北",
+    "price": "1100"
+  },
+  {
+    "info": "2室1厅",
+    "area": "56",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2100"
+  },
+  {
+    "info": "2室1厅",
+    "area": "68",
+    "forward": "朝南",
+    "position": "海曙",
+    "price": "1400"
+  },
+  {
+    "info": "2室1厅",
+    "area": "66",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2700"
+  },
+  {
+    "info": "2室1厅",
+    "area": "65",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2300"
+  },
+  {
+    "info": "3室1厅",
+    "area": "66",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2400"
+  },
+  {
+    "info": "2室2厅",
+    "area": "87",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2500"
+  },
+  {
+    "info": "3室1厅",
+    "area": "90",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "3400"
+  },
+  {
+    "info": "3室2厅",
+    "area": "138",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2600"
+  },
+  {
+    "info": "3室2厅",
+    "area": "145",
+    "forward": "朝南",
+    "position": "江北",
+    "price": "6000"
+  },
+  {
+    "info": "1室1厅",
+    "area": "51",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "2200"
+  },
+  {
+    "info": "3室2厅",
+    "area": "115",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "3400"
+  },
+  {
+    "info": "3室2厅",
+    "area": "115",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "3500"
+  },
+  {
+    "info": "1室1厅",
+    "area": "66",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "1850"
+  },
+  {
+    "info": "3室2厅",
+    "area": "100",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "3000"
+  },
+  {
+    "info": "2室2厅",
+    "area": "45",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2800"
+  },
+  {
+    "info": "3室2厅",
+    "area": "110",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "5000"
+  },
+  {
+    "info": "3室2厅",
+    "area": "104",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "4000"
+  },
+  {
+    "info": "2室2厅",
+    "area": "114",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "7500"
+  },
+  {
+    "info": "3室2厅",
+    "area": "180",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "6000"
+  },
+  {
+    "info": "3室2厅",
+    "area": "206",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "6500"
+  },
+  {
+    "info": "1室1厅",
+    "area": "54",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2500"
+  },
+  {
+    "info": "3室2厅",
+    "area": "140",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "5500"
+  },
+  {
+    "info": "1室1厅",
+    "area": "37",
+    "forward": "朝南",
+    "position": "海曙",
+    "price": "500"
+  },
+  {
+    "info": "2室1厅",
+    "area": "70",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2800"
+  },
+  {
+    "info": "3室2厅",
+    "area": "108",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "4000"
+  },
+  {
+    "info": "2室1厅",
+    "area": "43",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2600"
+  },
+  {
+    "info": "2室1厅",
+    "area": "90",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "3500"
+  },
+  {
+    "info": "2室1厅",
+    "area": "43",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2600"
+  },
+  {
+    "info": "1室1厅",
+    "area": "40",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "530"
+  },
+  {
+    "info": "2室1厅",
+    "area": "77",
+    "forward": "朝南",
+    "position": "江北",
+    "price": "1100"
+  },
+  {
+    "info": "2室1厅",
+    "area": "56",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2100"
+  },
+  {
+    "info": "2室1厅",
+    "area": "68",
+    "forward": "朝南",
+    "position": "海曙",
+    "price": "1400"
+  },
+  {
+    "info": "2室1厅",
+    "area": "66",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2700"
+  },
+  {
+    "info": "2室1厅",
+    "area": "65",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2300"
+  },
+  {
+    "info": "3室1厅",
+    "area": "66",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2400"
+  },
+  {
+    "info": "2室2厅",
+    "area": "87",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2500"
+  },
+  {
+    "info": "3室1厅",
+    "area": "90",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "3400"
+  },
+  {
+    "info": "3室2厅",
+    "area": "138",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2600"
+  },
+  {
+    "info": "3室2厅",
+    "area": "145",
+    "forward": "朝南",
+    "position": "江北",
+    "price": "6000"
+  },
+  {
+    "info": "1室1厅",
+    "area": "51",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "2200"
+  },
+  {
+    "info": "3室2厅",
+    "area": "115",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "3400"
+  },
+  {
+    "info": "3室2厅",
+    "area": "115",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "3500"
+  },
+  {
+    "info": "1室1厅",
+    "area": "66",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "1850"
+  },
+  {
+    "info": "3室2厅",
+    "area": "100",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "3000"
+  },
+  {
+    "info": "2室2厅",
+    "area": "45",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2800"
+  },
+  {
+    "info": "3室2厅",
+    "area": "110",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "5000"
+  },
+  {
+    "info": "3室2厅",
+    "area": "104",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "4000"
+  },
+  {
+    "info": "2室2厅",
+    "area": "114",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "7500"
+  },
+  {
+    "info": "3室2厅",
+    "area": "180",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "6000"
+  },
+  {
+    "info": "3室2厅",
+    "area": "206",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "6500"
+  },
+  {
+    "info": "1室1厅",
+    "area": "54",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2500"
+  },
+  {
+    "info": "3室2厅",
+    "area": "140",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "5500"
+  },
+  {
+    "info": "1室1厅",
+    "area": "37",
+    "forward": "朝南",
+    "position": "海曙",
+    "price": "500"
+  },
+  {
+    "info": "2室1厅",
+    "area": "70",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2800"
+  },
+  {
+    "info": "3室2厅",
+    "area": "108",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "4000"
+  },
+  {
+    "info": "2室1厅",
+    "area": "43",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2600"
+  },
+  {
+    "info": "2室1厅",
+    "area": "90",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "3500"
+  },
+  {
+    "info": "2室1厅",
+    "area": "43",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2600"
+  },
+  {
+    "info": "1室1厅",
+    "area": "40",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "530"
+  },
+  {
+    "info": "2室1厅",
+    "area": "77",
+    "forward": "朝南",
+    "position": "江北",
+    "price": "1100"
+  },
+  {
+    "info": "2室1厅",
+    "area": "56",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2100"
+  },
+  {
+    "info": "2室1厅",
+    "area": "68",
+    "forward": "朝南",
+    "position": "海曙",
+    "price": "1400"
+  },
+  {
+    "info": "2室1厅",
+    "area": "66",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2700"
+  },
+  {
+    "info": "2室1厅",
+    "area": "65",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2300"
+  },
+  {
+    "info": "3室1厅",
+    "area": "66",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2400"
+  },
+  {
+    "info": "2室2厅",
+    "area": "87",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2500"
+  },
+  {
+    "info": "3室1厅",
+    "area": "90",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "3400"
+  },
+  {
+    "info": "3室2厅",
+    "area": "138",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2600"
+  },
+  {
+    "info": "3室2厅",
+    "area": "145",
+    "forward": "朝南",
+    "position": "江北",
+    "price": "6000"
+  },
+  {
+    "info": "1室1厅",
+    "area": "51",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "2200"
+  },
+  {
+    "info": "3室2厅",
+    "area": "115",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "3400"
+  },
+  {
+    "info": "3室2厅",
+    "area": "115",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "3500"
+  },
+  {
+    "info": "1室1厅",
+    "area": "66",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "1850"
+  },
+  {
+    "info": "3室2厅",
+    "area": "100",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "3000"
+  },
+  {
+    "info": "2室2厅",
+    "area": "45",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2800"
+  },
+  {
+    "info": "3室2厅",
+    "area": "110",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "5000"
+  },
+  {
+    "info": "3室2厅",
+    "area": "104",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "4000"
+  },
+  {
+    "info": "2室2厅",
+    "area": "114",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "7500"
+  },
+  {
+    "info": "3室2厅",
+    "area": "180",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "6000"
+  },
+  {
+    "info": "3室2厅",
+    "area": "206",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "6500"
+  },
+  {
+    "info": "1室1厅",
+    "area": "54",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2500"
+  },
+  {
+    "info": "3室2厅",
+    "area": "140",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "5500"
+  },
+  {
+    "info": "1室1厅",
+    "area": "37",
+    "forward": "朝南",
+    "position": "海曙",
+    "price": "500"
+  },
+  {
+    "info": "2室1厅",
+    "area": "70",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2800"
+  },
+  {
+    "info": "3室2厅",
+    "area": "108",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "4000"
+  },
+  {
+    "info": "2室1厅",
+    "area": "43",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2600"
+  },
+  {
+    "info": "2室1厅",
+    "area": "90",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "3500"
+  },
+  {
+    "info": "2室1厅",
+    "area": "43",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2600"
+  },
+  {
+    "info": "1室1厅",
+    "area": "40",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "530"
+  },
+  {
+    "info": "2室1厅",
+    "area": "77",
+    "forward": "朝南",
+    "position": "江北",
+    "price": "1100"
+  },
+  {
+    "info": "2室1厅",
+    "area": "56",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2100"
+  },
+  {
+    "info": "2室1厅",
+    "area": "68",
+    "forward": "朝南",
+    "position": "海曙",
+    "price": "1400"
+  },
+  {
+    "info": "2室1厅",
+    "area": "66",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2700"
+  },
+  {
+    "info": "2室1厅",
+    "area": "65",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2300"
+  },
+  {
+    "info": "3室1厅",
+    "area": "66",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2400"
+  },
+  {
+    "info": "2室2厅",
+    "area": "87",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2500"
+  },
+  {
+    "info": "3室1厅",
+    "area": "90",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "3400"
+  },
+  {
+    "info": "3室2厅",
+    "area": "138",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2600"
+  },
+  {
+    "info": "3室2厅",
+    "area": "145",
+    "forward": "朝南",
+    "position": "江北",
+    "price": "6000"
+  },
+  {
+    "info": "1室1厅",
+    "area": "51",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "2200"
+  },
+  {
+    "info": "3室2厅",
+    "area": "115",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "3400"
+  },
+  {
+    "info": "3室2厅",
+    "area": "115",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "3500"
+  },
+  {
+    "info": "1室1厅",
+    "area": "66",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "1850"
+  },
+  {
+    "info": "3室2厅",
+    "area": "100",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "3000"
+  },
+  {
+    "info": "2室2厅",
+    "area": "45",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2800"
+  },
+  {
+    "info": "3室2厅",
+    "area": "110",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "5000"
+  },
+  {
+    "info": "3室2厅",
+    "area": "104",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "4000"
+  },
+  {
+    "info": "2室2厅",
+    "area": "114",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "7500"
+  },
+  {
+    "info": "3室2厅",
+    "area": "180",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "6000"
+  },
+  {
+    "info": "3室2厅",
+    "area": "206",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "6500"
+  },
+  {
+    "info": "1室1厅",
+    "area": "54",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2500"
+  },
+  {
+    "info": "3室2厅",
+    "area": "140",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "5500"
+  },
+  {
+    "info": "1室1厅",
+    "area": "37",
+    "forward": "朝南",
+    "position": "海曙",
+    "price": "500"
+  },
+  {
+    "info": "2室1厅",
+    "area": "70",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2800"
+  },
+  {
+    "info": "3室2厅",
+    "area": "108",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "4000"
+  },
+  {
+    "info": "2室1厅",
+    "area": "43",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2600"
+  },
+  {
+    "info": "2室1厅",
+    "area": "90",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "3500"
+  },
+  {
+    "info": "2室1厅",
+    "area": "43",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2600"
+  },
+  {
+    "info": "1室1厅",
+    "area": "40",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "530"
+  },
+  {
+    "info": "2室1厅",
+    "area": "77",
+    "forward": "朝南",
+    "position": "江北",
+    "price": "1100"
+  },
+  {
+    "info": "2室1厅",
+    "area": "56",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2100"
+  },
+  {
+    "info": "2室1厅",
+    "area": "68",
+    "forward": "朝南",
+    "position": "海曙",
+    "price": "1400"
+  },
+  {
+    "info": "2室1厅",
+    "area": "66",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2700"
+  },
+  {
+    "info": "2室1厅",
+    "area": "65",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2300"
+  },
+  {
+    "info": "3室1厅",
+    "area": "66",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2400"
+  },
+  {
+    "info": "2室2厅",
+    "area": "87",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2500"
+  },
+  {
+    "info": "3室1厅",
+    "area": "90",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "3400"
+  },
+  {
+    "info": "3室2厅",
+    "area": "138",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2600"
+  },
+  {
+    "info": "3室2厅",
+    "area": "145",
+    "forward": "朝南",
+    "position": "江北",
+    "price": "6000"
+  },
+  {
+    "info": "1室1厅",
+    "area": "51",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "2200"
+  },
+  {
+    "info": "3室2厅",
+    "area": "115",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "3400"
+  },
+  {
+    "info": "3室2厅",
+    "area": "115",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "3500"
+  },
+  {
+    "info": "1室1厅",
+    "area": "66",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "1850"
+  },
+  {
+    "info": "3室2厅",
+    "area": "100",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "3000"
+  },
+  {
+    "info": "2室2厅",
+    "area": "45",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2800"
+  },
+  {
+    "info": "3室2厅",
+    "area": "110",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "5000"
+  },
+  {
+    "info": "3室2厅",
+    "area": "104",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "4000"
+  },
+  {
+    "info": "2室2厅",
+    "area": "114",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "7500"
+  },
+  {
+    "info": "3室2厅",
+    "area": "180",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "6000"
+  },
+  {
+    "info": "3室2厅",
+    "area": "206",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "6500"
+  },
+  {
+    "info": "1室1厅",
+    "area": "54",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2500"
+  },
+  {
+    "info": "3室2厅",
+    "area": "140",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "5500"
+  },
+  {
+    "info": "1室1厅",
+    "area": "37",
+    "forward": "朝南",
+    "position": "海曙",
+    "price": "500"
+  },
+  {
+    "info": "2室1厅",
+    "area": "70",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2800"
+  },
+  {
+    "info": "3室2厅",
+    "area": "108",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "4000"
+  },
+  {
+    "info": "2室1厅",
+    "area": "43",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2600"
+  },
+  {
+    "info": "2室1厅",
+    "area": "90",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "3500"
+  },
+  {
+    "info": "2室1厅",
+    "area": "43",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2600"
+  },
+  {
+    "info": "1室1厅",
+    "area": "40",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "530"
+  },
+  {
+    "info": "2室1厅",
+    "area": "77",
+    "forward": "朝南",
+    "position": "江北",
+    "price": "1100"
+  },
+  {
+    "info": "2室1厅",
+    "area": "56",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2100"
+  },
+  {
+    "info": "2室1厅",
+    "area": "68",
+    "forward": "朝南",
+    "position": "海曙",
+    "price": "1400"
+  },
+  {
+    "info": "2室1厅",
+    "area": "66",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2700"
+  },
+  {
+    "info": "2室1厅",
+    "area": "65",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2300"
+  },
+  {
+    "info": "3室1厅",
+    "area": "66",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2400"
+  },
+  {
+    "info": "2室2厅",
+    "area": "87",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2500"
+  },
+  {
+    "info": "3室1厅",
+    "area": "90",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "3400"
+  },
+  {
+    "info": "3室2厅",
+    "area": "138",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2600"
+  },
+  {
+    "info": "3室2厅",
+    "area": "145",
+    "forward": "朝南",
+    "position": "江北",
+    "price": "6000"
+  },
+  {
+    "info": "1室1厅",
+    "area": "51",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "2200"
+  },
+  {
+    "info": "3室2厅",
+    "area": "115",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "3400"
+  },
+  {
+    "info": "3室2厅",
+    "area": "115",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "3500"
+  },
+  {
+    "info": "1室1厅",
+    "area": "66",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "1850"
+  },
+  {
+    "info": "3室2厅",
+    "area": "100",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "3000"
+  },
+  {
+    "info": "2室2厅",
+    "area": "45",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2800"
+  },
+  {
+    "info": "3室2厅",
+    "area": "110",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "5000"
+  },
+  {
+    "info": "3室2厅",
+    "area": "104",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "4000"
+  },
+  {
+    "info": "2室2厅",
+    "area": "114",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "7500"
+  },
+  {
+    "info": "3室2厅",
+    "area": "180",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "6000"
+  },
+  {
+    "info": "3室2厅",
+    "area": "206",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "6500"
+  },
+  {
+    "info": "1室1厅",
+    "area": "54",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2500"
+  },
+  {
+    "info": "3室2厅",
+    "area": "140",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "5500"
+  },
+  {
+    "info": "1室1厅",
+    "area": "37",
+    "forward": "朝南",
+    "position": "海曙",
+    "price": "500"
+  },
+  {
+    "info": "3室2厅",
+    "area": "120",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "3100"
+  },
+  {
+    "info": "2室1厅",
+    "area": "45",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2200"
+  },
+  {
+    "info": "3室2厅",
+    "area": "122",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "3000"
+  },
+  {
+    "info": "2室1厅",
+    "area": "90",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "2100"
+  },
+  {
+    "info": "2室1厅",
+    "area": "70",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2800"
+  },
+  {
+    "info": "3室2厅",
+    "area": "108",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "4000"
+  },
+  {
+    "info": "2室1厅",
+    "area": "43",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2600"
+  },
+  {
+    "info": "2室1厅",
+    "area": "90",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "3500"
+  },
+  {
+    "info": "2室1厅",
+    "area": "43",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2600"
+  },
+  {
+    "info": "1室1厅",
+    "area": "40",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "530"
+  },
+  {
+    "info": "2室1厅",
+    "area": "77",
+    "forward": "朝南",
+    "position": "江北",
+    "price": "1100"
+  },
+  {
+    "info": "2室1厅",
+    "area": "56",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2100"
+  },
+  {
+    "info": "2室1厅",
+    "area": "68",
+    "forward": "朝南",
+    "position": "海曙",
+    "price": "1400"
+  },
+  {
+    "info": "2室1厅",
+    "area": "66",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2700"
+  },
+  {
+    "info": "2室1厅",
+    "area": "65",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2300"
+  },
+  {
+    "info": "3室1厅",
+    "area": "66",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2400"
+  },
+  {
+    "info": "2室2厅",
+    "area": "87",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2500"
+  },
+  {
+    "info": "3室1厅",
+    "area": "90",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "3400"
+  },
+  {
+    "info": "3室2厅",
+    "area": "138",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2600"
+  },
+  {
+    "info": "3室2厅",
+    "area": "145",
+    "forward": "朝南",
+    "position": "江北",
+    "price": "6000"
+  },
+  {
+    "info": "1室1厅",
+    "area": "51",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "2200"
+  },
+  {
+    "info": "3室2厅",
+    "area": "115",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "3400"
+  },
+  {
+    "info": "3室2厅",
+    "area": "115",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "3500"
+  },
+  {
+    "info": "1室1厅",
+    "area": "66",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "1850"
+  },
+  {
+    "info": "3室2厅",
+    "area": "100",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "3000"
+  },
+  {
+    "info": "2室2厅",
+    "area": "45",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2800"
+  },
+  {
+    "info": "3室2厅",
+    "area": "110",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "5000"
+  },
+  {
+    "info": "3室2厅",
+    "area": "104",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "4000"
+  },
+  {
+    "info": "2室2厅",
+    "area": "114",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "7500"
+  },
+  {
+    "info": "3室2厅",
+    "area": "180",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "6000"
+  },
+  {
+    "info": "3室2厅",
+    "area": "120",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "3100"
+  },
+  {
+    "info": "2室1厅",
+    "area": "45",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2200"
+  },
+  {
+    "info": "3室2厅",
+    "area": "122",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "3000"
+  },
+  {
+    "info": "2室1厅",
+    "area": "90",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "2100"
+  },
+  {
+    "info": "2室1厅",
+    "area": "70",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2800"
+  },
+  {
+    "info": "3室2厅",
+    "area": "108",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "4000"
+  },
+  {
+    "info": "2室1厅",
+    "area": "43",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2600"
+  },
+  {
+    "info": "2室1厅",
+    "area": "90",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "3500"
+  },
+  {
+    "info": "2室1厅",
+    "area": "43",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2600"
+  },
+  {
+    "info": "1室1厅",
+    "area": "40",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "530"
+  },
+  {
+    "info": "2室1厅",
+    "area": "77",
+    "forward": "朝南",
+    "position": "江北",
+    "price": "1100"
+  },
+  {
+    "info": "2室1厅",
+    "area": "56",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2100"
+  },
+  {
+    "info": "2室1厅",
+    "area": "68",
+    "forward": "朝南",
+    "position": "海曙",
+    "price": "1400"
+  },
+  {
+    "info": "2室1厅",
+    "area": "66",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2700"
+  },
+  {
+    "info": "2室1厅",
+    "area": "65",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2300"
+  },
+  {
+    "info": "3室1厅",
+    "area": "66",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2400"
+  },
+  {
+    "info": "2室2厅",
+    "area": "87",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2500"
+  },
+  {
+    "info": "3室1厅",
+    "area": "90",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "3400"
+  },
+  {
+    "info": "3室2厅",
+    "area": "138",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2600"
+  },
+  {
+    "info": "3室2厅",
+    "area": "145",
+    "forward": "朝南",
+    "position": "江北",
+    "price": "6000"
+  },
+  {
+    "info": "1室1厅",
+    "area": "51",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "2200"
+  },
+  {
+    "info": "3室2厅",
+    "area": "115",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "3400"
+  },
+  {
+    "info": "3室2厅",
+    "area": "115",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "3500"
+  },
+  {
+    "info": "1室1厅",
+    "area": "66",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "1850"
+  },
+  {
+    "info": "3室2厅",
+    "area": "100",
+    "forward": "朝南北",
+    "position": "鄞州",
+    "price": "3000"
+  },
+  {
+    "info": "2室2厅",
+    "area": "45",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "2800"
+  },
+  {
+    "info": "3室2厅",
+    "area": "110",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "5000"
+  },
+  {
+    "info": "3室2厅",
+    "area": "104",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "4000"
+  },
+  {
+    "info": "2室2厅",
+    "area": "114",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "7500"
+  },
+  {
+    "info": "3室2厅",
+    "area": "180",
+    "forward": "朝南",
+    "position": "鄞州",
+    "price": "6000"
+  }
+]

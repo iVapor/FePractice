@@ -1,6 +1,5 @@
-cookie = 'd_c0="AJCCeF6JbwyPTjBK7SIQAqFmXDpZUmfm9iY=|1506423524"; _zap=fb8427e6-9915-48ce-ad08-1e10b7afdb36; r_cap_id="MjYyN2FkYTNmNjljNGI2N2IzNDM1OTFmZmMxN2Y1NmQ=|1509026126|95f068e7a07cfb1927c9c1cdd537929c97d10401"; cap_id="ZGIwNTM1MjA5MDZkNGZmM2JkN2NlZThkYzBlMjI0MjU=|1509026126|643e69042e1aac87b4aa59ef5f9a1b1557eed1ed"; z_c0=Mi4xZEdXU0F3QUFBQUFBa0lKNFhvbHZEQmNBQUFCaEFsVk5WRGZmV2dDR1EzN0dHVlhLR2dhWENrVDVZSW9KMlFpTDR3|1509026132|7a370990e21ff82d6ae10daa9c3eaf7e699f7445; q_c1=ee2321065387418795250c12003b8ae7|1509149948000|1506423524000; _ga=GA1.2.778307995.1507803161; __utma=51854390.778307995.1507803161.1510573568.1510629686.2; __utmc=51854390; __utmz=51854390.1510629686.2.2.utmcsr=zhihu.com|utmccn=(referral)|utmcmd=referral|utmcct=/; __utmv=51854390.100--|2=registration_date=20161014=1^3=entry_date=20161014=1; _xsrf=8882b7a6-d549-4749-9859-315a95e11192'
-user_agent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36'
-
+cookie = "需要使用自己的替换"
+user_agent = "需要使用自己的替换"
 var configInfo = {
     cookie,
     userAgent: user_agent,

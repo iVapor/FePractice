@@ -44,9 +44,9 @@ var transElementToObject = (element) => {
     var infoArray = infoString.split("|")
     var price = priceElement.text()
     house.info = infoArray[1]
-    house.area = infoArray[2]
+    house.area = infoArray[2].slice(0, infoArray[2].length - 1)
     house.forward = infoArray[3]
-    house.price = price
+    house.price = price.slice(0, price.length - 3)
     house.position = position
     return house
 }
@@ -81,7 +81,7 @@ var createCacheDir = () => {
 var saveHouses = (data) => {
     var s = JSON.stringify(data, null, 2)
     var fs = require('fs')
-    var path = 'ningboHouse.txt'
+    var path = 'ningboHouse.json'
     fs.writeFileSync(path, s)
 }
 

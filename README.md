@@ -4,7 +4,7 @@
 
 ![](https://github.com/nbhaohao/FePractice/blob/master/musicplayer/musicPlayerDemo.gif "播放器demo")
 
-## TodoList Demo (node版本需要执行 yarn install 安装库后才可运行)
+## TodoList Demo
 
 ![](https://github.com/nbhaohao/FePractice/blob/master/todolist/todoList.gif "TodoListDemo")
 
@@ -13,6 +13,9 @@
 
 ## 知乎爬虫 Demo
 ![](https://github.com/nbhaohao/FePractice/blob/master/spider/zhihuSpider.gif "知乎爬虫Demo")
+
+## 可视化图表 Demo (使用了租房网站爬虫所获得的数据)
+![](https://github.com/nbhaohao/FePractice/blob/master/EchartsDemo/EChartsDemo.gif "可视化图表Demo")
 
 ## CSS 一句话笔记
 * `visibility: hidden` 和 `display: none` 的区别是：visibility 会占据原来的空间隐藏元素，display 不会占据原来的空间隐藏元素。
