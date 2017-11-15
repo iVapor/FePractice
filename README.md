@@ -1,5 +1,9 @@
 **所有 node 项目需要执行 yarn install 安装依赖的库后才可运行**
 
+## 轮播图 Demo
+
+![](https://github.com/nbhaohao/FePractice/blob/master/slidephoto/slidePhoto.gif "轮播图demo")
+
 ## 音乐播放器 Demo
 
 ![](https://github.com/nbhaohao/FePractice/blob/master/musicplayer/musicPlayerDemo.gif "播放器demo")

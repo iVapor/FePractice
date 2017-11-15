@@ -1,0 +1,64 @@
+nav {
+    background-color: #ccc;
+    height: 50px;
+}
+
+#id-div-banner {
+    background-color: #777;
+    height: 700px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 50px;
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    line-height: 50px;
+    text-decoration: none;
+    display: inline-block;
+    height: 100%;
+}
+
+.class-li-logo {
+    float: left;
+}
+
+#id-div-banner .inner {
+    max-width: 300px;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    top: 160px;
+}
+
+#id-div-banner .inner h1 {
+    margin: 0;
+}
+
+button {
+    border: none;
+    background-color: #333;
+    color: #eee;
+    padding: 10px;
+}
+
+#id-div-banner .inner button {
+    padding: 14px 40px;
+}
+
+.class-div-bannerMore {
+    margin-top: 280px;
+}
+
+#id-div-banner .inner h1 + p {
+    line-height: 30px;
+    margin: 30px;
+}
