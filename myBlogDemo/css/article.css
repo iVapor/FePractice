@@ -1,0 +1,24 @@
+#id-div-banner {
+    height: 300px;
+}
+
+#id-div-banner .inner h1 {
+    border: none;
+}
+
+#id-div-banner .inner {
+    top: 30px;
+}
+
+.class-div-contentWrapper {
+    width: 1080px;
+    margin: 0 auto;
+    color: #616161;
+    padding-bottom: 50px;
+}
+
+.class-div-articleInfo article {
+    background-color: white;
+    padding: 40px;
+    line-height: 2;
+}
