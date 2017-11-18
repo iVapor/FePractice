@@ -51,11 +51,18 @@ var setMusicPlayer = (song) => {
     var musicName = e(".class-p-musicName")
     var musicAuthor = e(".class-p-author")
     var musicDiv = e(".class-div-picture")
+    audioPlayer.dataset.sid = song.sid
+    audioPlayer.dataset.ssid = song.ssid
     audioPlayer.src = url
     musicName.innerHTML = song.title
     musicAuthor.innerHTML = song.artist
     musicDiv.style.backgroundImage = `url(${song.picture})`
     musicPlayEvent(audioPlayer)
+    getLyric(audioPlayer)
+}
+
+var getLyric = () => {
+
 }
 
 var getChannelIdFromDataSet = () => {
@@ -125,6 +132,7 @@ var bindPlayerEndEvent = () => {
         var id = getChannelIdFromDataSet()
         requestMusic(id)
         switchPlayButtonIcon(false)
+        clearInterval(audioPlayer.dataset.currentTimeId)
     })
 }
 
@@ -206,14 +214,43 @@ var bindLoopButtonEvent = () => {
     })
 }
 
-var bindEvents = () => {
+var bindPlayEvents = () => {
     bindPlayButtonEvent()
-    bindProgressBarEvent()
     bindPlayerEndEvent()
     bindNextSongEvent()
+}
+
+var bindSoundEvents = () => {
     bindSoundButtonEvent()
     bindSoundBarEvent()
+}
+
+var bindMusicCanPlayEvent = () => {
+    var musicPlayer = e("audio")
+    var currentSelector = e("#id-span-currentTime")
+    var durationSelector = e("#id-span-duration")
+    bindEvent(musicPlayer, "canplay", function(event) {
+        var self = event.target
+        autoChangeCurrentTime(self, currentSelector, durationSelector)
+    })
+}
+
+var bindEvents = () => {
+    bindMusicCanPlayEvent()
+    bindPlayEvents()
+    bindSoundEvents()
+    bindProgressBarEvent()
     bindLoopButtonEvent()
+}
+
+var autoChangeCurrentTime = (self, currentSelector, durationSelector) => {
+    var durationTime = self.duration
+    durationSelector.innerHTML = transFloatToTime(durationTime)
+    var currentTimeId = setInterval(function() {
+        var currentTime = transFloatToTime(self.currentTime)
+        currentSelector.innerHTML = currentTime
+    }, 1000)
+    self.dataset.currentTimeId = currentTimeId
 }
 
 var __main = () => {

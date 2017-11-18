@@ -31,3 +31,16 @@ var ajax = (request) => {
     }
     newRequest.send(request.data)
 }
+
+var transFloatToTime = (floatNum) => {
+    var f = Math.floor(floatNum)
+    var minNum = Math.floor(f / 60)
+    var secNum = f - minNum * 60
+    if (minNum < 10) {
+        minNum = `0${minNum}`
+    }
+    if (secNum < 10) {
+        secNum = `0${secNum}`
+    }
+    return `${minNum}:${secNum}`
+}

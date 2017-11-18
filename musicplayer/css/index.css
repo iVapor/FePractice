@@ -14,7 +14,7 @@ span {
 
 .class-div-main {
     width: 440px;
-    height: 500px;
+    height: 530px;
     margin: 0 auto;
     background-color: #eef1f2;
     position: relative;
@@ -33,16 +33,46 @@ span {
     background-size: cover;
 }
 
+.class-div-musicLyric {
+    width: 100%;
+    height: 230px;
+    padding: 20px 0;
+    background-color: rgba(100, 100, 100, 0.5);
+}
+
+.class-div-lyricView {
+    height: 230px;
+    overflow: hidden;
+}
+
+.class-ul-lyric {
+    position: relative;
+    transition: all 1s;
+}
+
+.class-ul-lyric li {
+    padding: 5px 0 2px 0;
+    position: relative;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 12px;
+    transition: all 1s;
+}
+
+.class-ul-lyric li:active {
+    font-size: 13px;
+    color: #ffffff;
+}
+
 .class-div-musicplayer {
-    height: 100px;
+    height: 80px;
     width: 400px;
-    padding: 20px 20px 10px 20px;
+    padding: 20px 20px 0 20px;
 }
 
 .class-div-musicInfo {
     display: inline-block;
     width: 280px;
-    height: 100%;
 }
 
 .class-div-musicInfo p {
@@ -68,7 +98,7 @@ span {
 .class-span-outProgressbar, .class-span-inProgressbar {
     display: block;
     border: none;
-    height: 4px;
+    height: 6px;
     border-radius: 2px;
 }
 
@@ -88,6 +118,16 @@ span {
     width: 400px;
     height: 50px;
     padding: 20px 20px;
+    margin-top: 25px;
+}
+
+.class-div-musicCurrentTime {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+#id-span-currentTime, #id-span-duration, .class-div-musicCurrentTime {
+    cursor: default;
 }
 
 .class-div-playControls {
@@ -99,18 +139,18 @@ span {
     width: 28px;
     height: 28px;
     color: black;
-    font-size: 25px;
+    font-size: 45px;
     line-height: 25px;
     top: 50%;
     transform: translateY(-50%);
 }
 
 .class-span-next {
-    left: 30px;
+    left: 50px;
 }
 
 .class-span-loop {
-    right: 0;
+    right: 16px;
     color: grey;
 }
 
@@ -130,6 +170,7 @@ span {
 
 .class-div-soundControls {
     margin-top: 15px;
+    margin-left: 20px;
     position: relative;
 }
 
