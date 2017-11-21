@@ -41,6 +41,7 @@ span {
 }
 
 .class-div-lyricView {
+    display: none;
     height: 230px;
     overflow: hidden;
 }
@@ -59,7 +60,7 @@ span {
     transition: all 1s;
 }
 
-.class-ul-lyric li:active {
+.class-ul-lyric li.active {
     font-size: 13px;
     color: #ffffff;
 }
@@ -134,7 +135,7 @@ span {
     position: relative;
 }
 
-.class-span-play, .class-span-next, .class-span-loop {
+.class-span-play, .class-span-next, .class-span-loop, .class-span-lyrics{
     position: absolute;
     width: 28px;
     height: 28px;
@@ -151,6 +152,11 @@ span {
 
 .class-span-loop {
     right: 16px;
+    color: grey;
+}
+
+.class-span-lyrics {
+    right: 70px;
     color: grey;
 }
 

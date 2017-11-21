@@ -5,10 +5,35 @@ var e = (selector) => {
     return element
 }
 
+var eAll = (selector) => {
+    var elements = document.querySelectorAll(selector)
+    return elements
+}
+
 var bindEvent = (element, eventName, callback) => {
     element.addEventListener(eventName, function(event) {
         callback(event)
     })
+}
+
+var removeAllChild = (element) => {
+    var elementSeletor = e(element)
+    while (elementSeletor.hasChildNodes()) {
+        elementSeletor.removeChild(elementSeletor.firstChild)
+    }
+}
+
+var removeAllClass = (className) => {
+    var elements = eAll("." + className)
+    for (var i = 0; i < elements.length; i++) {
+        var item = elements[i]
+        item.classList.remove(className)
+    }
+}
+
+var getIndexChild = (parent, index) => {
+    var childrenArray = parent.children
+    return childrenArray[index]
 }
 
 var ajax = (request) => {
@@ -21,8 +46,13 @@ var ajax = (request) => {
     }
     newRequest.onreadystatechange = function () {
         if (newRequest.readyState == 4) {
-            var parseData = JSON.parse(newRequest.response)
-            request.callback(parseData)
+            var response = newRequest.response
+            if (response.includes("error")) {
+                request.callback("error")
+            } else {
+                var parseData = JSON.parse(newRequest.response)
+                request.callback(parseData)
+            }
         }
     }
     if (method == "GET") {

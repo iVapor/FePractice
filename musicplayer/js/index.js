@@ -51,18 +51,93 @@ var setMusicPlayer = (song) => {
     var musicName = e(".class-p-musicName")
     var musicAuthor = e(".class-p-author")
     var musicDiv = e(".class-div-picture")
-    audioPlayer.dataset.sid = song.sid
-    audioPlayer.dataset.ssid = song.ssid
     audioPlayer.src = url
     musicName.innerHTML = song.title
     musicAuthor.innerHTML = song.artist
     musicDiv.style.backgroundImage = `url(${song.picture})`
     musicPlayEvent(audioPlayer)
-    getLyric(audioPlayer)
+    getLyric(song.sid)
 }
 
-var getLyric = () => {
+var getLyric = (sid) => {
+    var newRequest = {
+        method: "POST",
+        url: `http://api.jirengu.com/fm/getLyric.php?&sid=${sid}`,
+        callback: (response) => {
+            if (response != "error") {
+                setLyric(response)
+                return
+            }
+            failToGetLyric()
+        }
+    }
+    ajax(newRequest)
+}
 
+var failToGetLyric = () => {
+    var lyricUl = e(".class-ul-lyric")
+    lyricUl.innerHTML = "<li>本歌曲展示没有歌词</li>"
+}
+
+var setLyric = (response) => {
+    removeAllChild(".class-ul-lyric")
+    var line = response.lyric.split("\n")
+    var result = handleLyric(line)
+    renderLyric(result)
+
+}
+
+var handleLyric = (line) => {
+    var result = []
+    var timeReg = /\[\d{2}:\d{2}.\d{2}\]/g
+    for (var i = 0; i < line.length; i++) {
+        var item = line[i]
+        var time = item.match(timeReg)
+        if (!time) {
+            continue
+        }
+        var value = item.replace(timeReg, "")
+        for (var j = 0; j < time.length; j++) {
+            var t = time[j].slice(1, -1).split(":")
+            var timeNum = parseInt(t[0], 10) * 60 + parseFloat(t[1])
+            result.push([timeNum, value])
+        }
+    }
+    result.sort((a, b) => {
+        return a[0] - b[0]
+    })
+    return result
+}
+
+var renderLyric = (result) => {
+    var lyrLi = ""
+    for (var i = 0; i < result.length; i++) {
+        var item = result[i]
+        lyrLi += `<li data-time=${item[0]}>${item[1]}</li>`
+    }
+    var lyrUl = e(".class-ul-lyric")
+    lyrUl.innerHTML = lyrLi
+    autoChangeLyr()
+}
+
+var autoChangeLyr = () => {
+    var player = e("audio")
+    setInterval(() => {
+        var lyrUl = e(".class-ul-lyric")
+        var liHeight = getIndexChild(lyrUl, 5).clientHeight - 3
+        var liArray = lyrUl.children
+        for (var i = 0; i < liArray.length - 1; i++) {
+            var item = liArray[i]
+            var currentTime = item.dataset.time
+            var nextTime = liArray[i + 1].dataset.time
+            var playerTime = player.currentTime
+            if ((playerTime > currentTime) && (currentTime < nextTime)) {
+                removeAllClass("active")
+                item.classList.add("active")
+                lyrUl.style.top = `${-(liHeight * (i - 2))}px`
+            }
+        }
+    }, 100)
 }
 
 var getChannelIdFromDataSet = () => {
@@ -235,12 +310,28 @@ var bindMusicCanPlayEvent = () => {
     })
 }
 
+var bindLyrcButtonEvent = () => {
+    var lyrcButton = e(".class-span-lyrics")
+    var lyrcDiv = e(".class-div-lyricView")
+    bindEvent(lyrcButton, "click", function(event) {
+        var self = event.target
+        if (self.style.color == "grey") {
+            self.style.color = "black"
+            lyrcDiv.style.display = "block"
+        } else {
+            self.style.color = "grey"
+            lyrcDiv.style.display = "none"
+        }
+    })
+}
+
 var bindEvents = () => {
     bindMusicCanPlayEvent()
     bindPlayEvents()
     bindSoundEvents()
     bindProgressBarEvent()
     bindLoopButtonEvent()
+    bindLyrcButtonEvent()
 }
 
 var autoChangeCurrentTime = (self, currentSelector, durationSelector) => {
