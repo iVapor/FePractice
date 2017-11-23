@@ -1,6 +1,7 @@
 **所有 node 项目需要执行 yarn install 安装依赖的库后才可运行**
 
 ## 可添加问题与回答的网站 Demo
+![](https://github.com/nbhaohao/FePractice/blob/master/qaDemo/qaDemo.gif "qaDemo")
 
 ## 轮播图 Demo
 
