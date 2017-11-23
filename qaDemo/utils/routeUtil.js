@@ -10,6 +10,17 @@ var sendHtmlToBrowser = (path, response) => {
     })
 }
 
+var sendDetailHtmlToBrowser = (handleData, path, response) => {
+    var options = {
+        encoding: "utf-8"
+    }
+    path = "template/" + path
+    fileSystem.readFile(path, options, (error, data) => {
+        var newData = handleData(data)
+        response.send(newData)
+    })
+}
+
 var sendJSONToBrowser = (data, response) => {
     data = JSON.stringify(data, null, 2)
     response.send(data)
@@ -26,6 +37,7 @@ var routeUtil = {
     sendHtmlToBrowser,
     registerRoutes,
     sendJSONToBrowser,
+    sendDetailHtmlToBrowser,
 }
 
 module.exports = routeUtil

@@ -14,6 +14,7 @@ var add = {
     path: "/api/answer/add",
     method: "post",
     func: (request, response) => {
+        console.log("路由收到的数据", request.body)
         var data = request.body
         var model = answerModel.new(data)
         routeUtil.sendJSONToBrowser(model, response)

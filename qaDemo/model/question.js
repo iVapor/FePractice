@@ -1,5 +1,6 @@
 var fileSystem = require("fs")
 var logUtil = require("../utils/logUtil")
+var stringUtil = require("../utils/stringUtil")
 var answerModel = require("./answer")
 var questionFilePath = "db/question.json"
 
@@ -7,7 +8,7 @@ class Question {
     constructor(model) {
         this.title = model.title || ""
         this.author = model.author || ""
-        this.content = model.content || ""
+        this.content = stringUtil.maxTextLength(model.content, 160) || ""
         this.answers = [] || ""
         this.createTime = Math.floor(new Date() / 1000)
     }
@@ -31,7 +32,7 @@ question.all = function () {
         var answerArray = []
         for (var j = 0; j < answerData.length; j++) {
             var answer = answerData[j]
-            if (answer.blogId == question.id) {
+            if (answer.questionId == question.id) {
                 answerArray.push(answer)
             }
         }

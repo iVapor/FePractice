@@ -4,11 +4,12 @@ var insertQuestionDiv = (response) => {
         var item = response[i]
         var html = getQuestionTemplate(item)
         var answersArray = item.answers
-        if (answersArray.length > 0) {
-            var answersHTML = getAnswerListTemplate(answersArray)
-            log("answersHTML", answersHTML)
-            html += answersHTML
+        if (answersArray.length == 0) {
+            continue
         }
+        var answersHTML = getAnswerListTemplate(answersArray)
+        log("answersHTML", answersHTML)
+        html += answersHTML
         questionListDiv.insertAdjacentHTML("beforeend", html)
     }
 }

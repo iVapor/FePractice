@@ -1,44 +1,70 @@
+var getTime = (createTime) => {
+    var t = new Date(createTime * 1000)
+    var time = t.toLocaleString()
+    return time
+}
+
 var getQuestionTemplate = (model) => {
-    var d = new Date(model.createTime * 1000)
-    var time = d.toLocaleString()
+    var time = getTime(model.createTime)
     var answersNum = model.answers.length
+    console.log("answersNum", answersNum)
     var answersString
+    var answersHTML = ""
     if (answersNum > 0) {
         answersString = `查看回答(${answersNum}条)`
+        answersHTML = getAnswerListTemplate(model.answers)
     } else {
         answersString = `暂无回答`
     }
+    console.log("model的id", model.id)
     var html = `            
             <div class="class-div-questionItem">
                 <p class="class-p-author"><span>提问者:</span>${model.author}</p>
-                <a href="/questionDetail" class="class-a-title">${model.title}</a>
+                <a href="/questionDetail/${model.id}" class="class-a-title">${model.title}</a>
                 <p class="class-p-content">${model.content}</p>
                 <span class="class-span-createTime">${time}</span>
                 <span class="class-span-showAnswer">${answersString}</span>
+                ${answersHTML}
             </div>`
     return html
 }
 
-var getAnswerListTemplate = (model) => {
+var getAnswerListItem = (model) => {
+    var time = getTime(model.createTime)
+    var html = `                    
+                    <div class="class-div-answerItem">
+                        <p class="class-p-aAuthor">${model.author}</p>
+                        <p class="class-p-aContent">${model.content}</p>
+                        <span class="class-span-aCreateTime">${time}</span>
+                    </div>`
+    return html
+}
+
+var getAnswerListTemplate = (answersArray) => {
+    var html = ""
+    for (var i = 0; i < answersArray.length; i++) {
+        var model = answersArray[i]
+        var item = getAnswerListItem(model)
+        html += item
+    }
+    var resultHTML = `
+        <div class="class-div-answers">
+                                <div class="class-div-answerNum">
+                        <span class="class-span-answerNum">${answersArray.length} 条回答</span>
+                    </div>
+            ${html}
+        </div>
+    `
+    return resultHTML
+}
+
+var getAnswerItemTemplate = (model) => {
+    var time = getTime(model.createTime)
     var html = `
-                    <div class="class-div-answers">
-                    <div class="class-div-answerNum">
-                        <span class="class-span-answerNum">2 条回答</span>
-                    </div>
-                    <div class="class-div-answerItem">
-                        <p class="class-p-aAuthor">用户名</p>
-                        <p class="class-p-aContent">我是评我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论论</p>
-                        <span class="class-span-aCreateTime">1996/7/10</span>
-                    </div>
-                    <div class="class-div-answerItem">
-                        <p class="class-p-aAuthor">用户名</p>
-                        <p class="class-p-aContent">我是评我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论论</p>
-                        <span class="class-span-aCreateTime">1996/7/10</span>
-                    </div>
-                    <div class="class-div-answerItem">
-                        <p class="class-p-aAuthor">用户名</p>
-                        <p class="class-p-aContent">我是评我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论我是评论论</p>
-                        <span class="class-span-aCreateTime">1996/7/10</span>
-                    </div>
-                </div>`
+            <div class="class-div-answerDivItem">
+            <p class="class-p-answerAuthor">${model.author} <span class="class-span-answerTime">${time}</span></p>
+            <p class="class-p-answerContent">${model.content}</p>
+        </div>
+        `
+    return html
 }

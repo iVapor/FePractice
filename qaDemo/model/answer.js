@@ -6,7 +6,7 @@ class Answer {
     constructor(model) {
         this.author = model.author || ""
         this.content = model.content || ""
-        this.blogId = Number(model.blogId) || 0
+        this.questionId = Number(model.questionId) || 0
         this.createTime = Math.floor(new Date() / 1000)
     }
 }
@@ -27,6 +27,7 @@ answer.all = function () {
 
 answer.new = function (model) {
     var item = new Answer(model)
+    console.log("item", item)
     var data = this.data
     var lastItem = data[data.length - 1]
     if (lastItem == undefined) {

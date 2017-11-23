@@ -33,10 +33,12 @@
 .class-p-answerAuthor {
     font-weight: bold;
     color: black;
+    font-size: 20px;
 }
 
 .class-span-answerTime {
-    margin-left: 100px;
+    margin-left: 10px;
+    font-size: 14px;
 }
 
 .class-p-answerContent {
@@ -57,7 +59,7 @@
 .class-div-addAnswer h2 {
     color: black;
     margin-bottom: 20px;
-    font-family:'cyjianxke8943bb481a2f7';
+    font-family:'JetLinkMediumOle8e8f2d7b1a2f7';
     font-size: 30px;
     margin-top: 20px;
 }

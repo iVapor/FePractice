@@ -48,11 +48,28 @@ var apiToAddQuestion = (callback) => {
     ajax(request)
 }
 
+var insertDivToList = (response) => {
+    var model = {
+        answers: response.answers,
+        author: response.author,
+        title: response.title,
+        content: response.content,
+        createTime: response.createTime,
+        id: response.id,
+    }
+    var html = getQuestionTemplate(model)
+    var questionListDiv = e(".class-div-questionList")
+    questionListDiv.insertAdjacentHTML("beforeend", html)
+}
+
 var bindAddQuestionEvent = (askDiv, maskDiv) => {
     var addButton = e("#id-button-addQuestion")
     bindEvent(addButton, "click", function (event) {
         apiToAddQuestion((response) => {
             log(response)
+            if (document.body.dataset.type != "answered") {
+                insertDivToList(response)
+            }
             hideAskDiv(askDiv, maskDiv)
         })
     })

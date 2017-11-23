@@ -10,11 +10,18 @@ var index = {
 }
 
 var questionDetail = {
-    path: "/questionDetail",
+    path: "/questionDetail/:id",
     method: "get",
     func: (request, response) => {
+        var questionId = request.params.id
+        console.log("参数传过来的 id", request.params.id)
         var path = "questionDetail.html"
-        routeUtil.sendHtmlToBrowser(path, response)
+        routeUtil.sendDetailHtmlToBrowser((data) => {
+            console.log("原来的 html 文件", data)
+            var result = data.replace("##question_id##", questionId)
+            console.log("返回的 html 文件", result)
+            return result
+        }, path, response)
     }
 }
 

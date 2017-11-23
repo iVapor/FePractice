@@ -38,5 +38,6 @@ var ajax = (request) => {
         return
     }
     var data = JSON.stringify(request.data)
+    console.log("ajax发送的数据", data)
     newRequest.send(data)
 }
